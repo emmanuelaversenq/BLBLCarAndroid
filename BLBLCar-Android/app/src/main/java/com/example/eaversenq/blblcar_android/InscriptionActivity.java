@@ -17,8 +17,9 @@ public class InscriptionActivity extends Activity {
         Button but_abonne = (Button)findViewById(R.id.but_abonne);
         but_abonne.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), AbonneActivity.class);
-                startActivityForResult(myIntent, 0);
+                Intent intent = new Intent(view.getContext(), AbonneActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivityForResult(intent, 0);
             }
         });
 

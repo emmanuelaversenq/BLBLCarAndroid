@@ -53,13 +53,13 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AccueilActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
+              <caret line="20" column="65" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#619#864#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#1039#1281#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#619#926#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#1101#1405#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,13 +82,13 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/InscriptionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#569#806#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#961#1254#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#569#868#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#1023#1316#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,16 +107,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentificationActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IdentificationActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/IdentificationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.42372882">
+              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#575#812#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#575#874#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#1029#1322#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,13 +136,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbonneActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbonneActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AbonneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45254236">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#579#883#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#1049#1342#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1691,13 +1696,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AccueilActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/IdentificationActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/InscriptionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_abonne.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inscription.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_identification.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_accueil.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AccueilActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/InscriptionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/IdentificationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AbonneActivity.java" />
       </list>
     </option>
@@ -2066,56 +2071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AccueilActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#864#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#1039#1281#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/InscriptionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#806#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#961#1254#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accueil.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_identification.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inscription.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2138,25 +2093,80 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/IdentificationActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_identification.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accueil.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AccueilActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#575#812#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#619#926#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#1101#1405#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/InscriptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#868#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#1023#1316#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/AbonneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45254236">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#579#883#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1049#1342#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eaversenq/blblcar_android/IdentificationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#874#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#1029#1322#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
           </folding>
         </state>
       </provider>

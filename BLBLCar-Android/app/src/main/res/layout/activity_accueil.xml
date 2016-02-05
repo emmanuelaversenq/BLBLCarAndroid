@@ -23,7 +23,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inscripiton"
+        android:text="Inscription"
         android:id="@+id/but_inscription"
         android:layout_alignTop="@+id/textView"
         android:layout_alignParentEnd="true" />
@@ -34,5 +34,5 @@
         android:text="Identification"
         android:id="@+id/but_identification"
         android:layout_alignTop="@+id/but_inscription"
-        android:layout_centerHorizontal="true" />
+        android:layout_toStartOf="@+id/but_inscription" />
 </RelativeLayout>

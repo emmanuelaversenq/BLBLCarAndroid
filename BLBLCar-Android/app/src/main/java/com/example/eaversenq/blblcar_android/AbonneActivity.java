@@ -13,13 +13,13 @@ public class AbonneActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abonne);
 
-        // NAVIGATION : fermeture, retour à l'écran d'inscription
-        Button but_ins = (Button) findViewById(R.id.but_inscription);
-        but_ins.setOnClickListener(new View.OnClickListener() {
+        // NAVIGATION : modification de l'inscription
+        Button but_inscription = (Button)findViewById(R.id.but_inscription);
+        but_inscription.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent();
-                setResult(RESULT_OK, myIntent);
-                finish();
+                Intent intent = new Intent(view.getContext(), InscriptionActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivityForResult(intent, 0);
             }
         });
 
@@ -27,12 +27,9 @@ public class AbonneActivity extends Activity {
         Button but_exit = (Button) findViewById(R.id.but_exit);
         but_exit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-//                Intent myIntent = new Intent();
-//                setResult(RESULT_CANCELED, myIntent);
                 Intent intent = new Intent(getApplicationContext(), AccueilActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
-                //finish();
             }
         });
     }

@@ -17,8 +17,9 @@ public class AccueilActivity extends AppCompatActivity {
         Button but_identification = (Button)findViewById(R.id.but_identification);
         but_identification.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), IdentificationActivity.class);
-                startActivityForResult(myIntent, 0);
+                Intent intent = new Intent(view.getContext(), IdentificationActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivityForResult(intent, 0);
             }
         });
 
@@ -26,8 +27,9 @@ public class AccueilActivity extends AppCompatActivity {
         Button but_inscription = (Button)findViewById(R.id.but_inscription);
         but_inscription.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), InscriptionActivity.class);
-                startActivityForResult(myIntent, 0);
+                Intent intent = new Intent(view.getContext(), InscriptionActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivityForResult(intent, 0);
             }
         });
     }
