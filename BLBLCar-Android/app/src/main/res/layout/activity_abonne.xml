@@ -7,26 +7,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Ecran d&apos;inscription"
-        android:id="@+id/textView2"
+        android:text="Ecran des abonnés"
+        android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Abonné"
-        android:id="@+id/but_abo"
-        android:singleLine="true"
+        android:text="Bye bye"
+        android:id="@+id/but_exit"
         android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/but_acc" />
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginEnd="43dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Accueil"
-        android:id="@+id/but_acc"
-        android:layout_marginStart="55dp"
-        android:layout_alignTop="@+id/but_abo"
-        android:layout_toEndOf="@+id/textView2" />
+        android:text="Inscription"
+        android:id="@+id/but_inscription"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginStart="37dp" />
+
 </RelativeLayout>

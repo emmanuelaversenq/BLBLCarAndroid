@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".InscriptionActivity" />
+        <activity android:name=".IdentificationActivity" />
+        <activity android:name=".AbonneActivity" />
     </application>
 
 </manifest>

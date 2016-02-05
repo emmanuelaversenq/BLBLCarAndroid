@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:2:1-23:12
 	xmlns:android
 		ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar
 		INJECTED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:supportsRtl
@@ -45,6 +45,14 @@ activity#com.example.eaversenq.blblcar_android.InscriptionActivity
 ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:18:9-57
 	android:name
 		ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:18:19-54
+activity#com.example.eaversenq.blblcar_android.IdentificationActivity
+ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:19:9-60
+	android:name
+		ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:19:19-57
+activity#com.example.eaversenq.blblcar_android.AbonneActivity
+ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:20:9-52
+	android:name
+		ADDED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml:20:19-49
 uses-sdk
 INJECTED from D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Ecole\TP\Covoiturage\Projet\BLBLCar\Android\BLBLCarAndroid\BLBLCar-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

@@ -12,14 +12,34 @@ public class InscriptionActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inscription);
 
-        // // Navigation : fermeture, retour à l'écran d'accueil
-        Button but_acc = (Button) findViewById(R.id.but_acc);
-        but_acc.setOnClickListener(new View.OnClickListener() {
+        // Navigation : vers l'écran des abonnés
+        Button but_abo = (Button)findViewById(R.id.but_abo);
+        but_abo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent();
-                setResult(RESULT_OK, myIntent);
-                finish();
+                Intent myIntent = new Intent(view.getContext(), AbonneActivity.class);
+                startActivityForResult(myIntent, 0);
             }
         });
+
+        // Navigation : fermeture, retour à l'écran d'accueil
+//        Button but_acc = (Button) findViewById(R.id.but_acc);
+//        but_acc.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                Intent myIntent = new Intent();
+//                setResult(RESULT_OK, myIntent);
+//                finish();
+        //            }
+        //        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (resultCode == RESULT_CANCELED) {
+            Intent myIntent = new Intent();
+                setResult(RESULT_OK, myIntent);
+                finish();
+        }
+
     }
 }

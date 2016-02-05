@@ -13,13 +13,22 @@ public class AccueilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
 
-        // Navigation : vers l'écran d'inscription
-        Button but_ins = (Button)findViewById(R.id.but_ins);
-        but_ins.setOnClickListener(new View.OnClickListener() {
+        // Navigation : vers l'écran d'identification
+        Button but_inscription = (Button)findViewById(R.id.but_inscription);
+        but_inscription.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), InscriptionActivity.class);
                 startActivityForResult(myIntent, 0);
             }
         });
+
+//        // Navigation : vers l'écran d'inscription
+//        Button but_inscription = (Button)findViewById(R.id.but_inscription);
+//        but_inscription.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                Intent myIntent = new Intent(view.getContext(), InscriptionActivity.class);
+//                startActivityForResult(myIntent, 0);
+//            }
+//        });
     }
 }

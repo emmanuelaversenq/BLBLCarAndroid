@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Accueil : Ecran d&apos;accueil"
+        android:text="Ecran d&apos;accueil"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Inscripiton"
-        android:id="@+id/but_ins"
+        android:id="@+id/but_inscription"
         android:layout_marginTop="124dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentEnd="true"
@@ -31,9 +31,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/buttonIdentification"
-        android:layout_alignTop="@+id/but_ins"
+        android:text="Identification"
+        android:id="@+id/but_identification"
+        android:layout_alignTop="@+id/but_inscription"
         android:layout_alignParentStart="true"
         android:layout_marginStart="36dp" />
 </RelativeLayout>
