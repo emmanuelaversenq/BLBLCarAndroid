@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class AbonneActivity extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abonne);
 
-        // Navigation : fermeture, retour à l'écran d'inscription
+        // NAVIGATION : fermeture, retour à l'écran d'inscription
         Button but_ins = (Button) findViewById(R.id.but_inscription);
         but_ins.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -22,7 +23,7 @@ public class AbonneActivity extends Activity {
             }
         });
 
-        // Navigation : fermeture, retour à l'écran d'accueil
+        // NAVIGATION : fermeture, retour à l'écran d'accueil
         Button but_exit = (Button) findViewById(R.id.but_exit);
         but_exit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

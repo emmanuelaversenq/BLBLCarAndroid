@@ -7,20 +7,29 @@ import android.view.View;
 import android.widget.Button;
 
 public class IdentificationActivity extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_identification);
 
-        // Navigation : vers l'écran des abonnés
-        Button but_abo = (Button)findViewById(R.id.but_abo);
-        but_abo.setOnClickListener(new View.OnClickListener() {
+        // NAVIGATION : vers l'écran des abonnés
+        Button but_abonne = (Button)findViewById(R.id.but_abonne);
+        but_abonne.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), AbonneActivity.class);
                 startActivityForResult(myIntent, 0);
             }
         });
 
-
+        // NAVIGATION : retour à l'écran d'accueil
+        Button but_exit = (Button) findViewById(R.id.but_exit);
+        but_exit.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), AccueilActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
     }
 }

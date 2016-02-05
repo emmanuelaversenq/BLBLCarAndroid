@@ -7,26 +7,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Ecran d&apos;identification"
+        android:text="Identification"
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#009933"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Abonné"
-        android:id="@+id/but_abo"
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/but_acc"
-        android:layout_marginEnd="43dp" />
+        android:id="@+id/but_abonne"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/but_exit" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Accueil"
-        android:id="@+id/but_acc"
-        android:layout_alignTop="@+id/but_abo"
-        android:layout_toEndOf="@+id/textView4"
-        android:singleLine="true" />
+        android:id="@+id/but_exit"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
