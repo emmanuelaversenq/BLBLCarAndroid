@@ -32,7 +32,25 @@ public class MapsActivity extends Activity{
         //Appel de la méthode asynchrone
         new ItineraireTask(this, mMap, editDepart, editArrivee).execute();
 
+        // NAVIGATION : vers l'écran des abonnés
+        Button IdSeconnecter = (Button) findViewById(R.id.but_abonne);
+        IdSeconnecter.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), AbonneActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivityForResult(intent, 0);
+            }
+        });
 
+        // NAVIGATION : retour à l'écran d'accueil
+        Button but_exit = (Button) findViewById(R.id.but_exit);
+        but_exit.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), AccueilActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
     }
 
 

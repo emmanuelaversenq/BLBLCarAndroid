@@ -35,4 +35,35 @@
         android:id="@+id/but_identification"
         android:layout_alignTop="@+id/but_inscription"
         android:layout_toStartOf="@+id/but_inscription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BL BL CAR"
+        android:id="@+id/textView5"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        android:typeface="serif"
+        android:inputType="text"
+        android:foreground="#ffffff"
+        android:autoText="true"
+        android:background="#df0c0c"
+        android:layout_above="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="70dp"
+        android:textColor="#060606"
+        android:layout_toStartOf="@+id/but_inscription"
+        android:textSize="@dimen/abc_action_bar_default_height_material" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/covoiturage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/but_identification"
+        android:layout_marginBottom="127dp" />
+
 </RelativeLayout>

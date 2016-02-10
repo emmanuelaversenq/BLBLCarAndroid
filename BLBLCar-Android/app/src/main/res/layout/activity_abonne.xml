@@ -58,7 +58,6 @@
                 android:id="@+id/editDepart"
                 android:layout_weight="2"
                 android:layout_width="0dp"
-                android:textStyle="bold"
                 android:lines="1"
                 android:inputType="text" />
 
