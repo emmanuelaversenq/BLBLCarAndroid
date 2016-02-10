@@ -1,4 +1,4 @@
-package com.example.eaversenq.blblcar_android;
+package com.example.eaversenq.blblcar_android.model;
 
 /**
  * Created by JFBIRE on 10/02/2016.
