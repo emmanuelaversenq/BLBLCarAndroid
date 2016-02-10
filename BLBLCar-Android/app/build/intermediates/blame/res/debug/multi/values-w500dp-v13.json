@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
@@ -48,6 +49,8 @@
         ]
     },
     {
+=======
+>>>>>>> oldmaster
         "outputFile": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {

@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-gu-rIN\\values-gu-rIN.xml",
@@ -1153,5 +1154,7 @@
                 }
             }
         ]
+=======
+>>>>>>> oldmaster
     }
 ]

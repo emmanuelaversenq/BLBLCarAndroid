@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-pa-rIN\\values-pa-rIN.xml",
         "map": [
             {
@@ -770,6 +771,8 @@
         ]
     },
     {
+=======
+>>>>>>> oldmaster
         "outputFile": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-pa-rIN\\values-pa-rIN.xml",
         "map": [
             {

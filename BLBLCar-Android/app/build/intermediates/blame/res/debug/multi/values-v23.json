@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
@@ -246,6 +247,8 @@
         ]
     },
     {
+=======
+>>>>>>> oldmaster
         "outputFile": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {

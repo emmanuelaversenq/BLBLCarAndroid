@@ -41,6 +41,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w600dp-v13\\values-w600dp-v13.xml",
@@ -127,5 +128,7 @@
                 }
             }
         ]
+=======
+>>>>>>> oldmaster
     }
 ]

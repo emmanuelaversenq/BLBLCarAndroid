@@ -1,11 +1,19 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+>>>>>>> oldmaster
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_identification.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_identification.xml"
+<<<<<<< HEAD
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -246,34 +254,50 @@
     {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+=======
+>>>>>>> oldmaster
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inscription.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_inscription.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+>>>>>>> oldmaster
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abonne.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_abonne.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+>>>>>>> oldmaster
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
@@ -288,32 +312,75 @@
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+>>>>>>> oldmaster
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inscription.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_inscription.xml"
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_accueil.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_accueil.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inscription.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_inscription.xml"
+>>>>>>> oldmaster
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+>>>>>>> oldmaster
     },
     {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -340,14 +407,11 @@
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
@@ -454,12 +518,25 @@
     {
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abonne.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_abonne.xml"
+>>>>>>> oldmaster
     },
     {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
@@ -470,12 +547,17 @@
     {
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_identification.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\layout\\activity_identification.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+>>>>>>> oldmaster
     },
     {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -486,9 +568,25 @@
     {
         "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+=======
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+>>>>>>> oldmaster
+    },
+    {
+        "merged": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     }
 ]

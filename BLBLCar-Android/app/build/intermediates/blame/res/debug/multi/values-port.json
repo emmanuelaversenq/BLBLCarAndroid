@@ -22,6 +22,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
@@ -70,5 +71,7 @@
                 }
             }
         ]
+=======
+>>>>>>> oldmaster
     }
 ]

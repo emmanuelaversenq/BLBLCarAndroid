@@ -83,6 +83,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-v12\\values-v12.xml",
@@ -253,5 +254,7 @@
                 }
             }
         ]
+=======
+>>>>>>> oldmaster
     }
 ]
