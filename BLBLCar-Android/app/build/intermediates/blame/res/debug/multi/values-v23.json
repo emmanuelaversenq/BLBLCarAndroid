@@ -124,7 +124,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+=======
+        "outputFile": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
         "map": [
             {
                 "to": {
@@ -135,7 +139,11 @@
                     "endOffset": 185
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -154,7 +162,11 @@
                     "endOffset": 260
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -173,7 +185,11 @@
                     "endOffset": 347
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -193,7 +209,11 @@
                     "endOffset": 905
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -214,7 +234,11 @@
                     "endOffset": 1475
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -234,6 +258,7 @@
                     "endOffset": 1580
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 29,
@@ -360,6 +385,9 @@
                 },
                 "from": {
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,

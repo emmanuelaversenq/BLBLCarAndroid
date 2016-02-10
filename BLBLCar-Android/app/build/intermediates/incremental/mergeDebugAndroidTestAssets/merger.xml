@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\Ecole des developpeurs\TPAndroid\BLBLCarAndroid\BLBLCar-Android\app\src\androidTest\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="D:\App\BLAndroid\BLBLCarAndroid\BLBLCar-Android\app\src\androidTest\assets"/></dataSet></merger>
+>>>>>>> oldMaster

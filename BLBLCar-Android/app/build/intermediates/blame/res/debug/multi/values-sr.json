@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+=======
+        "outputFile": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 209
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 317
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +61,11 @@
                     "endOffset": 440
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +84,11 @@
                     "endOffset": 543
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +107,11 @@
                     "endOffset": 649
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +130,11 @@
                     "endOffset": 735
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +153,11 @@
                     "endOffset": 839
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +176,11 @@
                     "endOffset": 957
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +199,11 @@
                     "endOffset": 1038
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,7 +222,11 @@
                     "endOffset": 1118
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -201,7 +245,11 @@
                     "endOffset": 1206
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -220,7 +268,11 @@
                     "endOffset": 1311
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +291,11 @@
                     "endOffset": 1419
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +314,11 @@
                     "endOffset": 1520
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +337,11 @@
                     "endOffset": 1624
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +360,11 @@
                     "endOffset": 1732
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -315,7 +383,11 @@
                     "endOffset": 1833
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -334,7 +406,11 @@
                     "endOffset": 1961
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -353,7 +429,11 @@
                     "endOffset": 2058
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -368,6 +448,7 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2063,
+<<<<<<< HEAD
                     "endColumn": 161,
                     "endOffset": 2220
                 },
@@ -379,6 +460,19 @@
                         "startOffset": 644,
                         "endColumn": 161,
                         "endOffset": 801
+=======
+                    "endColumn": 185,
+                    "endOffset": 2244
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 189,
+                        "endOffset": 654
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -386,6 +480,7 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2225,
                     "endColumn": 168,
                     "endOffset": 2389
@@ -398,6 +493,20 @@
                         "startOffset": 2621,
                         "endColumn": 168,
                         "endOffset": 2785
+=======
+                    "startOffset": 2249,
+                    "endColumn": 187,
+                    "endOffset": 2432
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2566,
+                        "endColumn": 191,
+                        "endOffset": 2753
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -405,6 +514,7 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2394,
                     "endColumn": 114,
                     "endOffset": 2504
@@ -417,6 +527,20 @@
                         "startOffset": 2335,
                         "endColumn": 114,
                         "endOffset": 2445
+=======
+                    "startOffset": 2437,
+                    "endColumn": 114,
+                    "endOffset": 2547
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2256,
+                        "endColumn": 114,
+                        "endOffset": 2366
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -424,6 +548,7 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2509,
                     "endColumn": 126,
                     "endOffset": 2631
@@ -436,6 +561,20 @@
                         "startOffset": 2080,
                         "endColumn": 126,
                         "endOffset": 2202
+=======
+                    "startOffset": 2552,
+                    "endColumn": 263,
+                    "endOffset": 2811
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4414,
+                        "endColumn": 267,
+                        "endOffset": 4677
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -443,6 +582,7 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2636,
                     "endColumn": 168,
                     "endOffset": 2800
@@ -455,6 +595,20 @@
                         "startOffset": 1911,
                         "endColumn": 168,
                         "endOffset": 2075
+=======
+                    "startOffset": 2816,
+                    "endColumn": 126,
+                    "endOffset": 2938
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2001,
+                        "endColumn": 126,
+                        "endOffset": 2123
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -462,6 +616,7 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2805,
                     "endColumn": 128,
                     "endOffset": 2929
@@ -474,6 +629,20 @@
                         "startOffset": 1782,
                         "endColumn": 128,
                         "endOffset": 1906
+=======
+                    "startOffset": 2943,
+                    "endColumn": 187,
+                    "endOffset": 3126
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1809,
+                        "endColumn": 191,
+                        "endOffset": 1996
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -481,6 +650,7 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 2934,
                     "endColumn": 163,
                     "endOffset": 3093
@@ -493,6 +663,20 @@
                         "startOffset": 970,
                         "endColumn": 167,
                         "endOffset": 1133
+=======
+                    "startOffset": 3131,
+                    "endColumn": 128,
+                    "endOffset": 3255
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1680,
+                        "endColumn": 128,
+                        "endOffset": 1804
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -500,6 +684,7 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3098,
                     "endColumn": 127,
                     "endOffset": 3221
@@ -512,6 +697,20 @@
                         "startOffset": 1654,
                         "endColumn": 127,
                         "endOffset": 1777
+=======
+                    "startOffset": 3260,
+                    "endColumn": 163,
+                    "endOffset": 3419
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 167,
+                        "endOffset": 986
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -519,6 +718,7 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3226,
                     "endColumn": 193,
                     "endOffset": 3415
@@ -531,6 +731,20 @@
                         "startOffset": 1266,
                         "endColumn": 193,
                         "endOffset": 1455
+=======
+                    "startOffset": 3424,
+                    "endColumn": 127,
+                    "endOffset": 3547
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1552,
+                        "endColumn": 127,
+                        "endOffset": 1675
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -538,6 +752,7 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3420,
                     "endColumn": 193,
                     "endOffset": 3609
@@ -550,6 +765,20 @@
                         "startOffset": 1460,
                         "endColumn": 193,
                         "endOffset": 1649
+=======
+                    "startOffset": 3552,
+                    "endColumn": 212,
+                    "endOffset": 3760
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1119,
+                        "endColumn": 216,
+                        "endOffset": 1331
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -557,6 +786,7 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3614,
                     "endColumn": 127,
                     "endOffset": 3737
@@ -569,6 +799,20 @@
                         "startOffset": 1138,
                         "endColumn": 127,
                         "endOffset": 1261
+=======
+                    "startOffset": 3765,
+                    "endColumn": 211,
+                    "endOffset": 3972
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1336,
+                        "endColumn": 215,
+                        "endOffset": 1547
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -576,6 +820,7 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3742,
                     "endColumn": 172,
                     "endOffset": 3910
@@ -588,6 +833,20 @@
                         "startOffset": 3215,
                         "endColumn": 172,
                         "endOffset": 3383
+=======
+                    "startOffset": 3977,
+                    "endColumn": 127,
+                    "endOffset": 4100
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 991,
+                        "endColumn": 127,
+                        "endOffset": 1114
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -595,6 +854,7 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 3915,
                     "endColumn": 122,
                     "endOffset": 4033
@@ -607,6 +867,20 @@
                         "startOffset": 3092,
                         "endColumn": 122,
                         "endOffset": 3210
+=======
+                    "startOffset": 4105,
+                    "endColumn": 172,
+                    "endOffset": 4273
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3527,
+                        "endColumn": 172,
+                        "endOffset": 3695
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -614,6 +888,7 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4038,
                     "endColumn": 163,
                     "endOffset": 4197
@@ -626,6 +901,20 @@
                         "startOffset": 806,
                         "endColumn": 163,
                         "endOffset": 965
+=======
+                    "startOffset": 4278,
+                    "endColumn": 122,
+                    "endOffset": 4396
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3404,
+                        "endColumn": 122,
+                        "endOffset": 3522
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -633,6 +922,7 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4202,
                     "endColumn": 179,
                     "endOffset": 4377
@@ -645,6 +935,20 @@
                         "startOffset": 2912,
                         "endColumn": 179,
                         "endOffset": 3087
+=======
+                    "startOffset": 4401,
+                    "endColumn": 163,
+                    "endOffset": 4560
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 659,
+                        "endColumn": 163,
+                        "endOffset": 818
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -652,6 +956,7 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4382,
                     "endColumn": 121,
                     "endOffset": 4499
@@ -664,6 +969,20 @@
                         "startOffset": 2790,
                         "endColumn": 121,
                         "endOffset": 2907
+=======
+                    "startOffset": 4565,
+                    "endColumn": 179,
+                    "endOffset": 4740
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3224,
+                        "endColumn": 179,
+                        "endOffset": 3399
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -671,6 +990,7 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4504,
                     "endColumn": 174,
                     "endOffset": 4674
@@ -683,6 +1003,20 @@
                         "startOffset": 302,
                         "endColumn": 174,
                         "endOffset": 472
+=======
+                    "startOffset": 4745,
+                    "endColumn": 121,
+                    "endOffset": 4862
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3102,
+                        "endColumn": 121,
+                        "endOffset": 3219
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -690,6 +1024,7 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4679,
                     "endColumn": 166,
                     "endOffset": 4841
@@ -702,6 +1037,20 @@
                         "startOffset": 477,
                         "endColumn": 166,
                         "endOffset": 639
+=======
+                    "startOffset": 4867,
+                    "endColumn": 166,
+                    "endOffset": 5029
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 166,
+                        "endOffset": 464
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -709,12 +1058,21 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4846,
                     "endColumn": 131,
                     "endOffset": 4973
                 },
                 "from": {
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-sr\\common_strings.xml",
+=======
+                    "startOffset": 5034,
+                    "endColumn": 131,
+                    "endOffset": 5161
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -728,6 +1086,7 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 4978,
                     "endColumn": 183,
                     "endOffset": 5157
@@ -740,6 +1099,20 @@
                         "startOffset": 4696,
                         "endColumn": 183,
                         "endOffset": 4875
+=======
+                    "startOffset": 5166,
+                    "endColumn": 183,
+                    "endOffset": 5345
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4814,
+                        "endColumn": 183,
+                        "endOffset": 4993
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -747,6 +1120,7 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5162,
                     "endColumn": 131,
                     "endOffset": 5289
@@ -759,6 +1133,20 @@
                         "startOffset": 4564,
                         "endColumn": 131,
                         "endOffset": 4691
+=======
+                    "startOffset": 5350,
+                    "endColumn": 131,
+                    "endOffset": 5477
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 4682,
+                        "endColumn": 131,
+                        "endOffset": 4809
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -766,6 +1154,7 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5294,
                     "endColumn": 141,
                     "endOffset": 5431
@@ -778,6 +1167,20 @@
                         "startOffset": 3388,
                         "endColumn": 141,
                         "endOffset": 3525
+=======
+                    "startOffset": 5482,
+                    "endColumn": 141,
+                    "endOffset": 5619
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3700,
+                        "endColumn": 141,
+                        "endOffset": 3837
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -785,6 +1188,7 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5436,
                     "endColumn": 252,
                     "endOffset": 5684
@@ -797,6 +1201,20 @@
                         "startOffset": 3653,
                         "endColumn": 252,
                         "endOffset": 3901
+=======
+                    "startOffset": 5624,
+                    "endColumn": 238,
+                    "endOffset": 5858
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3965,
+                        "endColumn": 242,
+                        "endOffset": 4203
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -804,6 +1222,7 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5689,
                     "endColumn": 122,
                     "endOffset": 5807
@@ -816,6 +1235,20 @@
                         "startOffset": 3530,
                         "endColumn": 122,
                         "endOffset": 3648
+=======
+                    "startOffset": 5863,
+                    "endColumn": 122,
+                    "endOffset": 5981
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3842,
+                        "endColumn": 122,
+                        "endOffset": 3960
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -823,6 +1256,7 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5812,
                     "endColumn": 108,
                     "endOffset": 5916
@@ -835,6 +1269,20 @@
                         "startOffset": 3906,
                         "endColumn": 108,
                         "endOffset": 4010
+=======
+                    "startOffset": 5986,
+                    "endColumn": 108,
+                    "endOffset": 6090
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4208,
+                        "endColumn": 108,
+                        "endOffset": 4312
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -842,6 +1290,7 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 5921,
                     "endColumn": 170,
                     "endOffset": 6087
@@ -854,6 +1303,20 @@
                         "startOffset": 2450,
                         "endColumn": 170,
                         "endOffset": 2616
+=======
+                    "startOffset": 6095,
+                    "endColumn": 190,
+                    "endOffset": 6281
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2371,
+                        "endColumn": 194,
+                        "endOffset": 2561
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -861,6 +1324,7 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 6092,
                     "endColumn": 127,
                     "endOffset": 6215
@@ -873,6 +1337,20 @@
                         "startOffset": 2207,
                         "endColumn": 127,
                         "endOffset": 2330
+=======
+                    "startOffset": 6286,
+                    "endColumn": 127,
+                    "endOffset": 6409
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2128,
+                        "endColumn": 127,
+                        "endOffset": 2251
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -880,6 +1358,7 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 6220,
                     "endColumn": 96,
                     "endOffset": 6312
@@ -892,6 +1371,20 @@
                         "startOffset": 4225,
                         "endColumn": 96,
                         "endOffset": 4317
+=======
+                    "startOffset": 6414,
+                    "endColumn": 207,
+                    "endOffset": 6617
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2890,
+                        "endColumn": 211,
+                        "endOffset": 3097
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -899,6 +1392,7 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 6317,
                     "endColumn": 94,
                     "endOffset": 6407
@@ -911,6 +1405,20 @@
                         "startOffset": 4015,
                         "endColumn": 94,
                         "endOffset": 4105
+=======
+                    "startOffset": 6622,
+                    "endColumn": 131,
+                    "endOffset": 6749
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2758,
+                        "endColumn": 131,
+                        "endOffset": 2885
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -918,6 +1426,7 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 6412,
                     "endColumn": 114,
                     "endOffset": 6522
@@ -930,6 +1439,20 @@
                         "startOffset": 4110,
                         "endColumn": 114,
                         "endOffset": 4220
+=======
+                    "startOffset": 6754,
+                    "endColumn": 96,
+                    "endOffset": 6846
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-sr\\common_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4317,
+                        "endColumn": 96,
+                        "endOffset": 4409
+>>>>>>> oldMaster
                     }
                 }
             },
@@ -937,6 +1460,7 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
+<<<<<<< HEAD
                     "startOffset": 6527,
                     "endColumn": 241,
                     "endOffset": 6764
@@ -962,6 +1486,14 @@
                 },
                 "from": {
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+=======
+                    "startOffset": 6851,
+                    "endColumn": 100,
+                    "endOffset": 6947
+                },
+                "from": {
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -974,7 +1506,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+=======
+        "outputFile": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+>>>>>>> oldMaster
         "map": [
             {
                 "to": {

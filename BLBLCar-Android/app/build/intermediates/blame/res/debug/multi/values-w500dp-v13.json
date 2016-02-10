@@ -49,9 +49,13 @@
         ]
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> oldmaster
         "outputFile": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w500dp-v13\\values-w500dp-v13.xml",
+=======
+        "outputFile": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w500dp-v13\\values-w500dp-v13.xml",
+>>>>>>> oldMaster
         "map": [
             {
                 "to": {
@@ -62,7 +66,11 @@
                     "endOffset": 105
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w500dp\\values-w500dp.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w500dp\\values-w500dp.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

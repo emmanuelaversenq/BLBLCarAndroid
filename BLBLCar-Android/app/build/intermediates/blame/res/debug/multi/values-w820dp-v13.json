@@ -25,7 +25,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+=======
+        "outputFile": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+>>>>>>> oldMaster
         "map": [
             {
                 "to": {
@@ -36,6 +40,7 @@
                     "endOffset": 108
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
@@ -63,6 +68,9 @@
                 },
                 "from": {
                     "file": "D:\\TpAndroidEquipe\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+=======
+                    "file": "D:\\App\\BLAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+>>>>>>> oldMaster
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
