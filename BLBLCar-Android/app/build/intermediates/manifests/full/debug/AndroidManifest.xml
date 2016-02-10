@@ -44,14 +44,10 @@
         <activity android:name="com.example.eaversenq.blblcar_android.InscriptionActivity" />
         <activity android:name="com.example.eaversenq.blblcar_android.IdentificationActivity" />
         <activity android:name="com.example.eaversenq.blblcar_android.AbonneActivity" />
-<<<<<<< HEAD
-
-=======
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
         -->
->>>>>>> oldMaster
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
