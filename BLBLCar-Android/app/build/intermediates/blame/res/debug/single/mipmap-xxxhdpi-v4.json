@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Ecole des developpeurs\\TPAndroid\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
         "source": "D:\\Ecole\\TP\\Covoiturage\\Projet\\BLBLCar\\Android\\BLBLCarAndroid\\BLBLCar-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
