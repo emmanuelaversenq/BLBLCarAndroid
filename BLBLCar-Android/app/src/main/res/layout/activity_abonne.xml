@@ -35,7 +35,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/but_exit"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:id="@+id/linearLayout">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -97,5 +98,20 @@
             android:text="Rechercher"
             android:id="@+id/btnSearch" />
     </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:stretchColumns="0"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTable"></TableLayout>
+    </ScrollView>
 
 </RelativeLayout>
