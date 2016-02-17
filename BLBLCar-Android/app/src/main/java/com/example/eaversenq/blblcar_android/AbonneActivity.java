@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eaversenq.blblcar_android.model.User;
+import com.example.eaversenq.blblcar_android.model.UserListAll;
 import com.example.eaversenq.blblcar_android.service.AbonneService;
 
 import java.util.ArrayList;
@@ -32,10 +36,33 @@ public class AbonneActivity extends Activity {
 
     private ArrayList<User> userList;
 
+    private UserListAll myList;
+    private String strTrairement;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abonne);
+
+        // Handler de communication avec le thread des listes
+        Handler handler = new Handler(new Handler.Callback() {
+            @Override
+            public boolean handleMessage(final Message msg) {
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        strTrairement = myList.getResultBack();
+                        Log.d("EPITEZ", "result " + myList.getResultBack());
+
+                        userList = AbonneService.fournirListeUserBDD(strTrairement);
+                        loadTableAbonne();
+                    }
+                });
+
+                return false;
+            }
+        });
+        myList = new UserListAll(handler);
+        myList.execute();
 
         // NAVIGATION : modification de l'inscription
         Button but_inscription = (Button)findViewById(R.id.but_inscription);
@@ -60,6 +87,8 @@ public class AbonneActivity extends Activity {
         // Accès aux données : chargement de la liste des utilisateurs
 
         buildTableAbonne();
+        //userList = AbonneService.fournirListeUser(0, 0);
+
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
@@ -96,7 +125,7 @@ public class AbonneActivity extends Activity {
         });
 
         // Chargement de la liste des utilisateurs abonnés
-        loadTableAbonne();
+       //loadTableAbonne();
     }
 
     private void buildTableAbonne() {
@@ -123,7 +152,7 @@ public class AbonneActivity extends Activity {
         TextView tvNom;
         TextView tvMail;
 
-        userList = AbonneService.fournirListeUser(0, 0);
+        //userList = AbonneService.fournirListeUser(0, 0);
         clearTableAbonne();
 
         for (int i = 0 ; i < userList.size(); i++) {
