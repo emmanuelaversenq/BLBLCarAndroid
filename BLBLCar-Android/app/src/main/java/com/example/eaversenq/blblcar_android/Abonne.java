@@ -16,7 +16,13 @@ public class Abonne {
         this.login = login;
         this.motPasse = motPasse;
     }
-
+    public boolean abonneInscrit() {
+        if (getLogin().equals("khalil") && getMotPasse().equals("1234")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     public String getLogin() {
         return login;
     }

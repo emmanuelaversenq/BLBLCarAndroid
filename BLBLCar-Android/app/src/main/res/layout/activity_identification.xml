@@ -11,16 +11,8 @@
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:textColor="#009933"
+        android:textColor="#99001c"
         android:textStyle="bold" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Abonné"
-        android:id="@+id/but_abonne"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/but_exit" />
 
     <Button
         android:layout_width="wrap_content"
@@ -38,7 +30,6 @@
         android:id="@+id/Logintext"
         android:textSize="30dp"
         android:textIsSelectable="true"
-        android:layout_below="@+id/but_abonne"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp" />
 
@@ -79,5 +70,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:onClick="onClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login ou mot de passe  incorrect"
+        android:id="@+id/idRes"
+        android:layout_below="@+id/IdSeconnecter"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
