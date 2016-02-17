@@ -3,11 +3,14 @@ package com.example.eaversenq.blblcar_android;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eaversenq.blblcar_android.model.User;
@@ -16,9 +19,12 @@ import com.example.eaversenq.blblcar_android.service.AbonneService;
 import java.util.ArrayList;
 
 public class AbonneActivity extends Activity {
+
     private EditText editDepart;
     private EditText editArrivee;
     private Button btnRechercher;
+    private ArrayList<User> userList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +49,9 @@ public class AbonneActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        // Accès aux données : chargement de la liste des utilisateurs
+        //userList = AbonneService.fournirListeUser();
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
@@ -75,13 +84,17 @@ public class AbonneActivity extends Activity {
             }
         });
 
-        // Chargement de la liste des utilisateurs abonnés
-        ArrayList<User> userList = AbonneService.fournirListeUser();
-        TableLayout table = (TableLayout) findViewById(R.id.idTable);
-
-        for (int i=0 ; i<userList.size(); i++) {
-
-        }
+/*        // Chargement de la liste des utilisateurs abonnés
+        TableLayout table = (TableLayout)findViewById(R.id.idTable);
+        TableRow row;
+        TextView tvPrenom;
+        for (int i = 0 ; i < userList.size(); i++) {
+*//*            row = new TableRow(this);
+            tvPrenom = new TextView(this);
+            tvPrenom.setText("Toto");
+            row.addView(tvPrenom);
+            table.addView(row);*//*
+        }*/
 
     }
 
