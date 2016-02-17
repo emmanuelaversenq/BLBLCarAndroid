@@ -51,7 +51,7 @@ public class AbonneActivity extends Activity {
         });
 
         // Accès aux données : chargement de la liste des utilisateurs
-        //userList = AbonneService.fournirListeUser();
+        userList = AbonneService.fournirListeUser();
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
@@ -84,19 +84,34 @@ public class AbonneActivity extends Activity {
             }
         });
 
-/*        // Chargement de la liste des utilisateurs abonnés
+        // Chargement de la liste des utilisateurs abonnés
         TableLayout table = (TableLayout)findViewById(R.id.idTable);
         TableRow row;
         TextView tvPrenom;
+        TextView tvNom;
+        TextView tvMail;
+
         for (int i = 0 ; i < userList.size(); i++) {
-*//*            row = new TableRow(this);
-            tvPrenom = new TextView(this);
-            tvPrenom.setText("Toto");
+            row = new TableRow(this);
+            tvPrenom = formatCell(userList.get(i).getPrenom());
+            tvNom = formatCell(userList.get(i).getNom());
+            tvMail = formatCell(userList.get(i).getEmail());
+
             row.addView(tvPrenom);
-            table.addView(row);*//*
-        }*/
+            row.addView(tvNom);
+            row.addView(tvMail);
+            table.addView(row);
+        }
 
     }
 
+    private TextView formatCell(String title) {
+        TextView result;
+        result = new TextView(this);
+        result.setText(title);
+        result.setGravity(Gravity.CENTER);
+        result.setLayoutParams(new TableRow.LayoutParams(0, android.view.ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        return result;
+    }
 
 }
