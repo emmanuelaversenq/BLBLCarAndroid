@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class AbonneService {
 
-    public ArrayList<User> fournirListeUser() {
+    public static ArrayList<User> fournirListeUser() {
 
         ArrayList<User> result = null;
         User user;
