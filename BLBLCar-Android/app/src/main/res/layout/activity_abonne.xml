@@ -111,7 +111,9 @@
             android:layout_width="fill_parent"
             android:stretchColumns="0"
             android:layout_height="wrap_content"
-            android:id="@+id/idTable"></TableLayout>
+            android:id="@+id/idTable">
+
+        </TableLayout>
     </ScrollView>
 
 </RelativeLayout>
