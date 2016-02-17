@@ -37,7 +37,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
      /*******************************************************/
     private Context context;
     private GoogleMap gMap;
-    private String editDepart;
+    private String editDepart = "rue Jean Rostand, Labège";
     private String editArrivee;
     private final ArrayList<LatLng> lstLatLng = new ArrayList<LatLng>();
 
@@ -179,9 +179,15 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             markerA.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
 
             //On déclare un marker rouge que l'on mettra sur l'arrivée
-            final MarkerOptions markerB = new MarkerOptions();
+            final MarkerOptions markerB = new MarkerOptions()
+                    .title("Berger-Levrault")
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.bl))
+                    .snippet("Mon lieu de travail")
+            ;
+
+
             markerB.position(lstLatLng.get(lstLatLng.size()-1));
-            markerB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+           // markerB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
 
             //On met à jour la carte
             gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lstLatLng.get(0), 10));
