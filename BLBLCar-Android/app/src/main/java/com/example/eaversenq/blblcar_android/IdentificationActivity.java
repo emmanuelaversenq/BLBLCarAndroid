@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.example.eaversenq.blblcar_android.service.IdentificationService;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 public class IdentificationActivity extends Activity {
@@ -53,10 +54,10 @@ public class IdentificationActivity extends Activity {
         TextView motpasse = (TextView) findViewById(R.id.mp);
         TextView res = (TextView) findViewById(R.id.idRes);
 
-        Abonne abonne = new Abonne(login.getText().toString(),motpasse.getText().toString());
+       // Abonne abonne = new Abonne(login.getText().toString(),motpasse.getText().toString());
 
 
-        if (abonne.abonneInscrit()){
+        if (IdentificationService.abonneIdenifie(login.getText().toString(), motpasse.getText().toString())){
             // Toast.makeText(this, "mot de passe corret", Toast.LENGTH_LONG).show();
             Button IdSeconnecter = (Button) findViewById(R.id.IdSeconnecter);
             IdSeconnecter.setOnClickListener(new View.OnClickListener() {
