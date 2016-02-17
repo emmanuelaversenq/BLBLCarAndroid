@@ -51,7 +51,7 @@ public class AbonneActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     public void run() {
                         strTrairement = myList.getResultBack();
-                        Log.d("EPITEZ", "result " + myList.getResultBack());
+                       // Log.d("EPITEZ", "result " + myList.getResultBack());
 
                         userList = AbonneService.fournirListeUserBDD(strTrairement);
                         loadTableAbonne();
