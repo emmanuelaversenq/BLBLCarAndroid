@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AbonneService {
 
-    public static ArrayList<User> fournirListeUser() {
+    public static ArrayList<User> fournirListeUser(long idUser, double radius) {
 
         ArrayList<User> result = new ArrayList<User>();
         User user;
