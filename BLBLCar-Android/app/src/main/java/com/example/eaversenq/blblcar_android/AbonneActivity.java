@@ -29,13 +29,9 @@ public class AbonneActivity extends Activity {
     private EditText editArrivee;
     private EditText editPerimetre;
     private Button btnRechercher;
-
-
     private TableLayout table;
 
-
     private ArrayList<User> userList;
-
     private UserListAll myList;
     private String strTrairement;
 
@@ -51,13 +47,10 @@ public class AbonneActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     public void run() {
                         strTrairement = myList.getResultBack();
-                       // Log.d("EPITEZ", "result " + myList.getResultBack());
-
                         userList = AbonneService.fournirListeUserBDD(strTrairement);
                         loadTableAbonne();
                     }
                 });
-
                 return false;
             }
         });
@@ -83,12 +76,6 @@ public class AbonneActivity extends Activity {
                 startActivity(intent);
             }
         });
-
-        // Accès aux données : chargement de la liste des utilisateurs
-
-        buildTableAbonne();
-        //userList = AbonneService.fournirListeUser(0, 0);
-
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
@@ -123,19 +110,16 @@ public class AbonneActivity extends Activity {
                 }
             }
         });
-
-        // Chargement de la liste des utilisateurs abonnés
-       //loadTableAbonne();
     }
 
-    private void buildTableAbonne() {
+    private void loadTableAbonne() {
         TableRow row;
         TextView tvPrenom;
         TextView tvNom;
         TextView tvMail;
-
         table = (TableLayout)findViewById(R.id.idTable);
 
+        // En-têtes de colonnes
         row = new TableRow(this);
         tvPrenom = formatCell("Prénom", true);
         tvNom = formatCell("Nom", true);
@@ -144,33 +128,21 @@ public class AbonneActivity extends Activity {
         row.addView(tvNom);
         row.addView(tvMail);
         table.addView(row);
-    }
 
-    private void loadTableAbonne() {
-        TableRow row;
-        TextView tvPrenom;
-        TextView tvNom;
-        TextView tvMail;
-
-        //userList = AbonneService.fournirListeUser(0, 0);
-        clearTableAbonne();
-
+        // Corps de la liste
         for (int i = 0 ; i < userList.size(); i++) {
-            row = new TableRow(this);
-            tvPrenom = formatCell(userList.get(i).getPrenom(), (i % 2 == 1));
-            tvNom = formatCell(userList.get(i).getNom(), (i % 2 == 1));
-            tvMail = formatCell(userList.get(i).getEmail(), (i % 2 == 1));
-            tvMail.setTextSize(10);
 
-            row.addView(tvPrenom);
-            row.addView(tvNom);
-            row.addView(tvMail);
-            table.addView(row);
+                row = new TableRow(this);
+                tvPrenom = formatCell(userList.get(i).getPrenom(), (i % 2 == 1));
+                tvNom = formatCell(userList.get(i).getNom(), (i % 2 == 1));
+                tvMail = formatCell(userList.get(i).getEmail(), (i % 2 == 1));
+                tvMail.setTextSize(10);
+
+                row.addView(tvPrenom);
+                row.addView(tvNom);
+                row.addView(tvMail);
+                table.addView(row);
         }
-    }
-
-    private void clearTableAbonne() {
-
     }
 
     private TextView formatCell(String title, boolean isShadow) {
@@ -180,7 +152,6 @@ public class AbonneActivity extends Activity {
         result.setGravity(Gravity.LEFT);
         result.setLayoutParams(new TableRow.LayoutParams(0, android.view.ViewGroup.LayoutParams.WRAP_CONTENT, 1));
         if (isShadow) result.setBackgroundColor(Color.rgb(221, 238, 255));
-
         return result;
     }
 
