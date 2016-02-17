@@ -55,7 +55,7 @@ public class AbonneActivity extends Activity {
 
         // Accès aux données : chargement de la liste des utilisateurs
 
-        userList = AbonneService.fournirListeUser(0, 0);
+        buildTableAbonne();
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
