@@ -2,6 +2,7 @@ package com.example.eaversenq.blblcar_android;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -23,6 +24,8 @@ public class AbonneActivity extends Activity {
     private EditText editDepart;
     private EditText editArrivee;
     private Button btnRechercher;
+    private TableLayout table;
+
     private ArrayList<User> userList;
 
     @Override
@@ -51,7 +54,8 @@ public class AbonneActivity extends Activity {
         });
 
         // Accès aux données : chargement de la liste des utilisateurs
-        //userList = AbonneService.fournirListeUser();
+
+        userList = AbonneService.fournirListeUser(0, 0);
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
@@ -84,19 +88,64 @@ public class AbonneActivity extends Activity {
             }
         });
 
-/*        // Chargement de la liste des utilisateurs abonnés
-        TableLayout table = (TableLayout)findViewById(R.id.idTable);
+        // Chargement de la liste des utilisateurs abonnés
+        loadTableAbonne();
+    }
+
+    private void buildTableAbonne() {
         TableRow row;
         TextView tvPrenom;
+        TextView tvNom;
+        TextView tvMail;
+
+        table = (TableLayout)findViewById(R.id.idTable);
+
+        row = new TableRow(this);
+        tvPrenom = formatCell("Prénom", true);
+        tvNom = formatCell("Nom", true);
+        tvMail = formatCell("e.mail", true);
+        row.addView(tvPrenom);
+        row.addView(tvNom);
+        row.addView(tvMail);
+        table.addView(row);
+    }
+
+    private void loadTableAbonne() {
+        TableRow row;
+        TextView tvPrenom;
+        TextView tvNom;
+        TextView tvMail;
+
+        userList = AbonneService.fournirListeUser(0, 0);
+        clearTableAbonne();
+
         for (int i = 0 ; i < userList.size(); i++) {
-*//*            row = new TableRow(this);
-            tvPrenom = new TextView(this);
-            tvPrenom.setText("Toto");
+            row = new TableRow(this);
+            tvPrenom = formatCell(userList.get(i).getPrenom(), (i % 2 == 1));
+            tvNom = formatCell(userList.get(i).getNom(), (i % 2 == 1));
+            tvMail = formatCell(userList.get(i).getEmail(), (i % 2 == 1));
+            tvMail.setTextSize(10);
+
             row.addView(tvPrenom);
-            table.addView(row);*//*
-        }*/
+            row.addView(tvNom);
+            row.addView(tvMail);
+            table.addView(row);
+        }
+    }
+
+    private void clearTableAbonne() {
 
     }
 
+    private TextView formatCell(String title, boolean isShadow) {
+        TextView result;
+        result = new TextView(this);
+        result.setText(title);
+        result.setGravity(Gravity.LEFT);
+        result.setLayoutParams(new TableRow.LayoutParams(0, android.view.ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        if (isShadow) result.setBackgroundColor(Color.rgb(221, 238, 255));
+
+        return result;
+    }
 
 }

@@ -12,7 +12,7 @@
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:textColor="#009933"
+        android:textColor="#99001c"
         android:textStyle="bold" />
     <Button
         android:layout_width="wrap_content"
