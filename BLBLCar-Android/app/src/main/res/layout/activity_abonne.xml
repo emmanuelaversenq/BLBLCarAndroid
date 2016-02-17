@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
-        android:textColor="#6666cc" />
+        android:textColor="#99001c" />
 
     <Button
         android:layout_width="wrap_content"
@@ -91,11 +91,52 @@
                 android:text="64 rue Jean Rostand, Labege" />
         </LinearLayout>
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Périmètre de recherche (en m)"
+                android:id="@+id/Distance"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editPerimetre"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="5000"
+                android:singleLine="true"
+                android:layout_marginRight="120dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"
+                android:id="@+id/btnValidePerimetre" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></LinearLayout>
+
+
+        </LinearLayout>
+
         <Button
 
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Rechercher"
+            android:text="Afficher la carte"
             android:id="@+id/btnSearch" />
     </LinearLayout>
 

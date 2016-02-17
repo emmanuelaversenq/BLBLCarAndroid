@@ -22,7 +22,9 @@ public class AbonneActivity extends Activity {
 
     private EditText editDepart;
     private EditText editArrivee;
+    private EditText editPerimetre;
     private Button btnRechercher;
+
     private ArrayList<User> userList;
 
     @Override
@@ -57,6 +59,8 @@ public class AbonneActivity extends Activity {
         editDepart = (EditText) findViewById(R.id.editDepart);
         // editArrivee = (EditText) findViewById(R.id.editArrivee);
         editArrivee = (EditText) findViewById(R.id.editArrivée);
+        //editPerimetre =(EditText)
+        editPerimetre =(EditText) findViewById(R.id.editPerimetre);
 
         btnRechercher = (Button) findViewById(R.id.btnSearch);
 
@@ -77,6 +81,7 @@ public class AbonneActivity extends Activity {
                     final Intent intent = new Intent(AbonneActivity.this, MapsActivity.class);
                     intent.putExtra("DEPART", editDepart.getText().toString().trim());
                     intent.putExtra("ARRIVEE", editArrivee.getText().toString().trim());
+                    intent.putExtra("PERIMETRE",editPerimetre.getText().toString().trim());
 
 
                     AbonneActivity.this.startActivity(intent);

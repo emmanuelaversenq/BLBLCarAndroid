@@ -25,12 +25,14 @@ public class MapsActivity extends Activity{
         //On récupère les composants graphiques
         mMap = ((MapFragment)getFragmentManager().findFragmentById(R.id.map)).getMap();
 
-        //On récupère le départ et l'arrivée
+        //On récupère le départ et l'arrivée, et le périmètre
         final String editDepart = getIntent().getStringExtra("DEPART");
         final String editArrivee = getIntent().getStringExtra("ARRIVEE");
+        final Double editPerimetre = getIntent().getDoubleExtra("PERIMETRE",5000);
+
 
         //Appel de la méthode asynchrone
-        new ItineraireTask(this, mMap, editDepart, editArrivee).execute();
+        new ItineraireTask(this, mMap, editDepart, editArrivee, editPerimetre).execute();
 
         // NAVIGATION : vers l'écran des abonnés
         Button IdSeconnecter = (Button) findViewById(R.id.but_abonne);
