@@ -45,7 +45,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
     private GoogleMap gMap;
     private String editDepart;
     private String editArrivee;
-    private double editPerimetre;
+    private String editPerimetre;
     private final ArrayList<LatLng> lstLatLng = new ArrayList<LatLng>();
 
     /*******************************************************/
@@ -58,9 +58,10 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
      * @param gMap
      * @param editDepart
      * @param editArrivee
+     * @param editPerimetre
 
      */
-    public ItineraireTask(final Context context, final GoogleMap gMap, final String editDepart, final String editArrivee, final Double editPerimetre) {
+    public ItineraireTask(final Context context, final GoogleMap gMap, final String editDepart, final String editArrivee, final String editPerimetre) {
         this.context = context;
         this.gMap = gMap;
         this.editDepart = editDepart;
@@ -206,7 +207,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             gMap.addMarker(markerB);
             final Circle circle = gMap.addCircle(new CircleOptions()
                     .center(lstLatLng.get(0))
-                    .radius(editPerimetre)// en mètres => km
+                    .radius(Double.parseDouble(editPerimetre)*1000)// en mètres => km
                     .strokeWidth(5).strokeColor(Color.RED));
         }
 

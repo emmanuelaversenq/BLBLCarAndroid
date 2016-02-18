@@ -28,7 +28,7 @@ public class MapsActivity extends Activity{
         //On récupère le départ et l'arrivée, et le périmètre
         final String editDepart = getIntent().getStringExtra("DEPART");
         final String editArrivee = getIntent().getStringExtra("ARRIVEE");
-        final Double editPerimetre = getIntent().getDoubleExtra("PERIMETRE",5000);
+        final String editPerimetre = getIntent().getStringExtra("PERIMETRE");
 
 
         //Appel de la méthode asynchrone

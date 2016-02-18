@@ -113,7 +113,7 @@
                 android:id="@+id/editPerimetre"
                 android:lines="1"
                 android:maxLines="1"
-                android:text="5000"
+                android:text="5"
                 android:singleLine="true"
                 android:layout_marginRight="120dp" />
 
