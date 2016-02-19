@@ -44,7 +44,7 @@ public class AbonneService {
                                     ", sex: "+json_data.getInt("sex")+
                                     ", birthyear: "+json_data.getInt("birthyear")
                     );*/
-                    user = new User("", "", json_data.getString("name").toUpperCase(), json_data.getString("firstname"), json_data.getString("email"), "", "", "", false, false);
+                    user = new User("", "", json_data.getString("name").toUpperCase(), json_data.getString("firstname"), json_data.getString("email"), "", "", "", false, false, 0.0, 0.0, 0.0);
                     result.add(user);
                 }
             }

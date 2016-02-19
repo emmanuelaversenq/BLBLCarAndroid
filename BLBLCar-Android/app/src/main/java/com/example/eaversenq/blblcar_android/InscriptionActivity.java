@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eaversenq.blblcar_android.model.User;
+import com.example.eaversenq.blblcar_android.service.GeolocalisationService;
 
 public class InscriptionActivity extends Activity {
 
@@ -43,7 +44,8 @@ public class InscriptionActivity extends Activity {
         boolean errInscription=false;
         boolean conducteurSelectionne=false;
         boolean passagerSelectionne=false;
-        User user;
+        User user = new User();
+        GeolocalisationService geolocalisation = new GeolocalisationService();
 
         TextView login = (TextView) findViewById(R.id.identification);
         TextView motpasse = (TextView) findViewById(R.id.motDePasse);
@@ -92,10 +94,10 @@ public class InscriptionActivity extends Activity {
             Toast.makeText(this, "L'adresse doit être renseignée", Toast.LENGTH_LONG).show();
             errInscription=true;
         }
-        if ((codePostal.getText().length()==0) || (codePostal.getText().equals(null))) {
+/*        if ((codePostal.getText().length()==0) || (codePostal.getText().equals(null))) {
             Toast.makeText(this, "Le code postal doit être renseigné", Toast.LENGTH_LONG).show();
             errInscription=true;
-        }
+        } */
         if ((ville.getText().length()==0) || (ville.getText().equals(null))) {
             Toast.makeText(this, "La ville doit être renseignée", Toast.LENGTH_LONG).show();
             errInscription=true;
@@ -115,8 +117,12 @@ public class InscriptionActivity extends Activity {
         if (errInscription==true) {
             Toast.makeText(this, "Echec de l'inscription", Toast.LENGTH_LONG).show();
         } else {
-            user=new User(login.toString(), motpasse.toString(), nom.toString(), prenom.toString(), email.toString(),
-                    adresse.toString(), codePostal.toString(), ville.toString(), passagerSelectionne, conducteurSelectionne);
+            geolocalisation.rechercheCoordonnees(adresse.getText().toString(),ville.getText().toString());
+            user=new User(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
+                    email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
+                    passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
+
+
             Toast.makeText(this, "Inscription effectuée avec succès", Toast.LENGTH_LONG).show();
         }
     }
