@@ -35,6 +35,7 @@ public class AbonneActivity extends Activity {
     private UserListAll myList;
     private String strTrairement;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,9 +122,9 @@ public class AbonneActivity extends Activity {
 
         // En-têtes de colonnes
         row = new TableRow(this);
-        tvPrenom = formatCell("Prénom", true);
-        tvNom = formatCell("Nom", true);
-        tvMail = formatCell("e.mail", true);
+        tvPrenom = formatCell(String.format(getString(R.string.prenom)), true);
+        tvNom = formatCell(String.format(getString(R.string.nom)), true);
+        tvMail = formatCell(String.format(getString(R.string.email)), true);
         row.addView(tvPrenom);
         row.addView(tvNom);
         row.addView(tvMail);
