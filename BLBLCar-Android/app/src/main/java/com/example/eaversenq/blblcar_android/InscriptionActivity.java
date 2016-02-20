@@ -60,50 +60,50 @@ public class InscriptionActivity extends Activity {
         CheckBox conducteur = (CheckBox) findViewById(R.id.conducteur);
 
         if ((login.getText().length()==0) || (login.getText().equals(null))) {
-            Toast.makeText(this, "Le Login doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgLogin, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((motpasse.getText().length()==0) || (motpasse.getText().equals(null))) {
-            Toast.makeText(this, "Le Mot de Passe doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgMotDePasse, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((confirmation.getText().length()==0) || (confirmation.getText().equals(null))) {
-            Toast.makeText(this, "La Confirmation du Mot de Passe doit être renseignée", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgConfirmationMotDePasse, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if (!(confirmation.getText().toString()).equals(motpasse.getText().toString())) {
-            Toast.makeText(this, "Le mot de passe et sa confirmation doit être identique", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgPwdEtConfirmation, Toast.LENGTH_LONG).show();
         }
         if ((nom.getText().length()==0) || (nom.getText().equals(null))) {
-            Toast.makeText(this, "Le nom doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgNom, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((prenom.getText().length()==0) || (prenom.getText().equals(null))) {
-            Toast.makeText(this, "Le Prénom doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgPrenom, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((email.getText().length()==0) || (email.getText().equals(null))) {
-            Toast.makeText(this, "L'e.mail doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgEmail, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if (!(email.getText().toString().matches( "([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)" ))){
-            Toast.makeText(this, "Veuillez saisir une adresse mail valide", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgMailValide, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((adresse.getText().length()==0) || (adresse.getText().equals(null))) {
-            Toast.makeText(this, "L'adresse doit être renseignée", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgAdresse, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
 /*        if ((codePostal.getText().length()==0) || (codePostal.getText().equals(null))) {
-            Toast.makeText(this, "Le code postal doit être renseigné", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgCodePostal, Toast.LENGTH_LONG).show();
             errInscription=true;
         } */
         if ((ville.getText().length()==0) || (ville.getText().equals(null))) {
-            Toast.makeText(this, "La ville doit être renseignée", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgVille, Toast.LENGTH_LONG).show();
             errInscription=true;
         }
         if ((!conducteur.isChecked())&&(!passager.isChecked())){
-            Toast.makeText(this, "vous devez cocher passager, conducteur ou les deux", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgConducteurPassager, Toast.LENGTH_LONG).show();
             errInscription=true;
         }else {
             if (conducteur.isChecked()) {
@@ -115,7 +115,7 @@ public class InscriptionActivity extends Activity {
 
         }
         if (errInscription==true) {
-            Toast.makeText(this, "Echec de l'inscription", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgInscriptionEchec, Toast.LENGTH_LONG).show();
         } else {
             geolocalisation.rechercheCoordonnees(adresse.getText().toString(),ville.getText().toString());
             user=new User(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
@@ -123,7 +123,7 @@ public class InscriptionActivity extends Activity {
                     passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
 
 
-            Toast.makeText(this, "Inscription effectuée avec succès", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
         }
     }
 }

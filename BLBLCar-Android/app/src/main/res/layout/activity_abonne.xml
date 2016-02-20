@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Abonné"
+        android:text="@string/abonne"
         android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -17,7 +17,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Accueil"
+        android:text="@string/accueil"
         android:id="@+id/but_exit"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inscription"
+        android:text="@string/identification"
         android:id="@+id/but_inscription"
         android:layout_alignParentTop="true"
         android:layout_toStartOf="@+id/but_exit" />
@@ -74,7 +74,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Arrivée"
+                android:text="@string/arrivee"
                 android:id="@+id/textView"
                 android:layout_weight="1"
                 android:textStyle="bold" />
@@ -100,7 +100,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Périmètre de recherche (en km)"
+                android:text="@string/perimetre"
                 android:id="@+id/Distance"
                 android:layout_weight="1"
                 android:textStyle="bold"/>
@@ -121,7 +121,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Valider"
+                android:text="@string/depart"
                 android:id="@+id/btnValidePerimetre" />
 
             <LinearLayout
@@ -136,7 +136,7 @@
 
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Afficher la carte"
+            android:text="@string/afficheCarte"
             android:id="@+id/btnSearch" />
     </LinearLayout>
 

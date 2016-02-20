@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BLBLCar-Android</string>
+
+    <!-- Bouton -->
+    <string name="enregistrer">Enregistrer</string>
+    <string name="connect">Se Connecter</string>
+    <string name="abonne">Abonné</string>
+    <string name="accueil">Accueil</string>
+    <string name="identification">Identification</string>
+    <string name="inscription">Inscrption</string>
+    <string name="valider">Valider</string>
+    <string name="afficheCarte">Afficher la carte</string>
+
+    <!-- Champs -->
+    <string name="login">Login</string>
+    <string name="pwd">Mot de Passe</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="email">e.mail</string>
+    <string name="adresseRue">Adresse: rue</string>
+    <string name="cp">Code Postal</string>
+    <string name="ville">Ville</string>
+    <string name="conducteur">Conducteur</string>
+    <string name="passager">Passager</string>
+    <string name="arrivee">Arrivée</string>
+    <string name="depart">Départ</string>
+    <string name="perimetre">Périmettre de recherche (en km)</string>
+    <string name="mapsGoogle">MAP GOOGLE</string>
+    <string name="blblcar">BL BL CAR</string>
+
+    <!-- Message -->
+    <string name="msgLogin">Le Login doit être renseigné</string>
+    <string name="msgMotDePasse">Le Mot de Passe doit être renseigné</string>
+    <string name="msgConfirmationMotDePasse">La confirmation du Mot de Passe doit être renseignée</string>
+    <string name="msgPwdEtConfirmation">Le mot de passe et sa confirmation doit être identique</string>
+    <string name="msgNom">Le nom doit être renseigné</string>
+    <string name="msgPrenom">Le Prénom doit être renseigné</string>
+    <string name="msgEmail">L\'e.mail doit être renseigné</string>
+    <string name="msgMailValide">Veuillez saisir une adresse mail valide</string>
+    <string name="msgAdresse">L\'adresse doit être renseignée</string>
+    <string name="msgCodePostal">Le code postal doit être renseigné</string>
+    <string name="msgVille">La ville doit être renseignée</string>
+    <string name="msgConducteurPassager">vous devez cocher passager, conducteur ou les deux</string>
+    <string name="msgInscriptionEchec">Echec de l\'inscription</string>
+    <string name="msgInscriptionSucces">Inscription effectuée avec succès</string>
+    <string name="msgLoginPwd">Login ou mot de passe incorrect</string>
+    <string name="msgDepart">Merci de saisir un lieu de départ</string>
+    <string name="msgArrive">Merci de saisir un lieu d\'arrivée</string>
+    <string name="msgItineraire">Calcul de l\'itinéraire en cours</string>
+    <string name="msgItineraireTrouve">Impossible de trouver un itinéraire</string>
+
+
+</resources>

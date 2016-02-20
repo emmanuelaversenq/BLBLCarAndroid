@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">BLBLCar-Android</string>
+
+    <!-- Bouton -->
+    <string name="enregistrer">Record</string>
+    <string name="connect">Se Connecter</string>
+    <string name="abonne">Subscriber</string>
+    <string name="accueil">Welcome</string>
+    <string name="identification">Login</string>
+    <string name="inscription">Sign In</string>
+    <string name="valider">Submit</string>
+    <string name="afficheCarte">Post the Map</string>
+
+    <!-- Champs -->
+    <string name="login">Login</string>
+    <string name="pwd">Password</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="nom">Last Name</string>
+    <string name="prenom">FirstName</string>
+    <string name="email">e-mail</string>
+    <string name="adresseRue">Addresse: street</string>
+    <string name="cp">Postal Code</string>
+    <string name="ville">City</string>
+    <string name="conducteur">Driver</string>
+    <string name="passager">Passenger</string>
+    <string name="arrivee">Start</string>
+    <string name="depart">Finish</string>
+    <string name="perimetre">Scope of research (in km)</string>
+    <string name="mapsGoogle">MAP GOOGLE</string>
+    <string name="blblcar">BL BL CAR</string>
+
+    <!-- Message -->
+    <string name="msgLogin">The Login must be informed</string>
+    <string name="msgMotDePasse">The Password must be informed</string>
+    <string name="msgConfirmationMotDePasse">The confirmation of the Password must be informed</string>
+    <string name="msgPwdEtConfirmation">The Password and the confirmation of the Password must be identical</string>
+    <string name="msgNom">The Last Name must be informed</string>
+    <string name="msgPrenom">The FirstName must be informed</string>
+    <string name="msgEmail">The e-mail must be informed</string>
+    <string name="msgMailValide">The e-mail must be valid</string>
+    <string name="msgAdresse">The address  must be informed</string>
+    <string name="msgCodePostal">The Postal Code must be informed</string>
+    <string name="msgVille">The city must be informed</string>
+    <string name="msgConducteurPassager">you need to check passenger, driver or both</string>
+    <string name="msgInscriptionEchec">Failure of the inscription</string>
+    <string name="msgInscriptionSucces">Success of the Inscription</string>
+    <string name="msgLoginPwd">Incorrect login and password</string>
+    <string name="msgDepart">Please enter a place of departure</string>
+    <string name="msgArrive">Please enter a place of arrival</string>
+    <string name="msgItineraire">Calculation of route in progress</string>
+    <string name="msgItineraireTrouve">Impossible to find a route</string>
+
+
 </resources>

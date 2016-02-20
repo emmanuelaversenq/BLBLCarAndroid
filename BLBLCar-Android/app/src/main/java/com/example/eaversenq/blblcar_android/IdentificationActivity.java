@@ -70,7 +70,7 @@ public class IdentificationActivity extends Activity {
 
         } else {
             res.setVisibility(View.VISIBLE);
-            Toast.makeText(this, "Login ou mot de passe incorrect", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgLoginPwd, Toast.LENGTH_LONG).show();
 
         }
 

@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="MAP GOOGLE"
+        android:text="@string/mapsGoogle"
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -17,7 +17,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Abonné"
+        android:text="@string/abonne"
         android:id="@+id/but_abonne"
         android:layout_alignParentTop="true"
         android:layout_toStartOf="@+id/but_exit" />
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Accueil"
+        android:text="@string/accueil"
         android:id="@+id/but_exit"
         android:singleLine="true"
         android:layout_alignParentTop="true"

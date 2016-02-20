@@ -93,10 +93,10 @@ public class AbonneActivity extends Activity {
             @Override
             public void onClick(final View v) {
                 if("".equals(editDepart.getText().toString().trim())) {
-                    Toast.makeText(AbonneActivity.this, "Merci de saisir un lieu de départ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AbonneActivity.this, R.string.msgDepart, Toast.LENGTH_SHORT).show();
                 }
                 else if("".equals(editArrivee.getText().toString().trim())) {
-                    Toast.makeText(AbonneActivity.this, "Merci de saisir un lieu d'arrivée", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AbonneActivity.this, R.string.msgArrive, Toast.LENGTH_SHORT).show();
                 }
                 else {
                     //On transmet les données à l'activité suivante

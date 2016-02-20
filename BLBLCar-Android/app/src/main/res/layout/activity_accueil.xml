@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Accueil"
+        android:text="@string/accueil"
         android:id="@+id/TextView"
         android:textColor="#99001c"
         android:layout_alignParentTop="true"
@@ -23,7 +23,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inscription"
+        android:text="@string/inscription"
         android:id="@+id/but_inscription"
         android:layout_alignTop="@+id/TextView"
         android:layout_alignParentEnd="true" />
@@ -31,7 +31,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Identification"
+        android:text="@string/identification"
         android:id="@+id/but_identification"
         android:layout_alignTop="@+id/but_inscription"
         android:layout_toStartOf="@+id/but_inscription" />
@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BL BL CAR"
+        android:text="@string/blblcar"
         android:id="@+id/textView5"
         android:singleLine="true"
         android:textAlignment="center"
