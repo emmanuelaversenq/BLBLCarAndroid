@@ -121,7 +121,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/depart"
+                android:text="@string/valider"
                 android:id="@+id/btnValidePerimetre" />
 
             <LinearLayout

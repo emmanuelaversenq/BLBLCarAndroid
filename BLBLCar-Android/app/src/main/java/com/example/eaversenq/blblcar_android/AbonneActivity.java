@@ -122,9 +122,9 @@ public class AbonneActivity extends Activity {
 
         // En-têtes de colonnes
         row = new TableRow(this);
-        tvPrenom = formatCell(String.format(getString(R.string.prenom)), true);
-        tvNom = formatCell(String.format(getString(R.string.nom)), true);
-        tvMail = formatCell(String.format(getString(R.string.email)), true);
+        tvPrenom = formatCell(getString(R.string.prenom), true);
+        tvNom = formatCell(getString(R.string.nom), true);
+        tvMail = formatCell(getString(R.string.email), true);
         row.addView(tvPrenom);
         row.addView(tvNom);
         row.addView(tvMail);
