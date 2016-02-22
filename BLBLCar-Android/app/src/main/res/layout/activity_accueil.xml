@@ -25,16 +25,17 @@
         android:layout_height="wrap_content"
         android:text="@string/inscription"
         android:id="@+id/but_inscription"
-        android:layout_alignTop="@+id/TextView"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignTop="@+id/but_identification"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="93dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/identification"
         android:id="@+id/but_identification"
-        android:layout_alignTop="@+id/but_inscription"
-        android:layout_toStartOf="@+id/but_inscription" />
+        android:layout_alignTop="@+id/TextView"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,20 +51,19 @@
         android:foreground="#ffffff"
         android:autoText="true"
         android:background="#99001c"
-        android:layout_above="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
         android:layout_marginBottom="70dp"
         android:textColor="#060606"
-        android:layout_toStartOf="@+id/but_inscription"
-        android:textSize="@dimen/abc_action_bar_default_height_material" />
+        android:textSize="@dimen/abc_action_bar_default_height_material"
+        android:layout_above="@+id/imageView"
+        android:layout_toEndOf="@+id/TextView" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/covoiturage"
+        android:layout_marginBottom="158dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/but_identification"
-        android:layout_marginBottom="127dp" />
+        android:layout_alignStart="@+id/textView5" />
 
 </RelativeLayout>
