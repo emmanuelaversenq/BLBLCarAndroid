@@ -32,6 +32,7 @@ public class AbonneActivity extends Activity {
     private TableLayout table;
 
     private ArrayList<User> userList;
+    private ArrayList<User> userSubList;
     private UserListAll myList;
     private String strTrairement;
 
