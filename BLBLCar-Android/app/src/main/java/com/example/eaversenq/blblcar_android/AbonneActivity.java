@@ -34,8 +34,9 @@ public class AbonneActivity extends Activity {
     private Button btnPerimetre;
     private TableLayout table;
 
+    //private ArrayList<User> userList;
     private ArrayList<Abonne> userList;
-    private ArrayList<Abonne> userSubList;
+    private ArrayList<Abonne> userSubList = new ArrayList<Abonne>();
     private UserListAll myList;
     private String strTrairement;
 
@@ -54,7 +55,7 @@ public class AbonneActivity extends Activity {
                         strTrairement = myList.getResultBack();
                         //userList = AbonneService.fournirListeUserBDD(strTrairement);
                         userList = AbonneService.fournirListeAbonne(strTrairement);
-                        loadTableAbonne();
+                        extractSubList();
                     }
                 });
                 return false;
@@ -93,6 +94,14 @@ public class AbonneActivity extends Activity {
         editPerimetre =(EditText) findViewById(R.id.editPerimetre);
         btnPerimetre = (Button) findViewById(R.id.btnValidePerimetre);
         btnRechercher = (Button) findViewById(R.id.btnSearch);
+        table = (TableLayout)findViewById(R.id.idTable);
+
+        btnPerimetre.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(final View v) {
+                extractSubList();
+            }
+        });
 
         btnRechercher.setOnClickListener(new OnClickListener() {
             /**
@@ -120,12 +129,31 @@ public class AbonneActivity extends Activity {
         });
     }
 
-    private void loadTableAbonne() {
+    /*
+     * Extrait la liste des abonnés filtrés par rapport au périmètre
+     */
+    private void extractSubList() {
+        double radius = Double.parseDouble(editPerimetre.getText().toString());
+        userSubList.clear();
+        for (int i = 0 ; i < userList.size(); i++) {
+            if (userList.get(i).getDistance() <= radius) {
+                userSubList.add(userList.get(i));
+            }
+        }
+        displayTableAbonne();
+    }
+
+    /*
+     * Affiche la liste des abonnés
+     */
+    private void displayTableAbonne() {
         TableRow row;
         TextView tvPrenom;
         TextView tvNom;
         TextView tvMail;
-        table = (TableLayout)findViewById(R.id.idTable);
+
+        // On vide la table
+        table.removeAllViews();
 
         // En-têtes de colonnes
         row = new TableRow(this);
@@ -144,12 +172,12 @@ public class AbonneActivity extends Activity {
                 tvPrenom = formatCell(userList.get(i).getPrenom(), (i % 2 == 1));
                 tvNom = formatCell(userList.get(i).getNom(), (i % 2 == 1));
                 tvMail = formatCell(userList.get(i).getEmail(), (i % 2 == 1));
-                tvMail.setTextSize(10);
+            tvMail.setTextSize(10);
 
                 row.addView(tvPrenom);
                 row.addView(tvNom);
                 row.addView(tvMail);
-                table.addView(row);
+            table.addView(row);
         }
     }
 

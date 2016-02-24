@@ -15,6 +15,7 @@ public class Abonne {
         this.email = email;
         this.longitude = (longitude == null || longitude.equals("") ? 0. : Double.parseDouble(longitude));
         this.latitude = (latitude == null || latitude.equals("") ? 0. : Double.parseDouble(latitude));
+        distance = (nom.equals("Dujardin") ? 5. : 2.);
     }
 
     public String getPrenom() {

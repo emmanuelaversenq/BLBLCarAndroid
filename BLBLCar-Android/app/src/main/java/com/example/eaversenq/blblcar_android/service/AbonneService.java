@@ -22,7 +22,7 @@ public class AbonneService {
             for(int i=0;i<jArray.length();i++){
                 JSONObject json_data = jArray.getJSONObject(i);
                 // abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), json_data.getString("longitude"),  json_data.getString("latitude"));
-                abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), "",  "");
+                abonne = new Abonne(json_data.getString("firstName"), json_data.getString("name").toUpperCase(), json_data.getString("email"), "",  "");
                 result.add(abonne);
             }
         } catch(JSONException e) {
@@ -45,7 +45,7 @@ public class AbonneService {
                                     ", sex: "+json_data.getInt("sex")+
                                     ", birthyear: "+json_data.getInt("birthyear")
                     );*/
-                    user = new User("", "", json_data.getString("name").toUpperCase(), json_data.getString("firstname"), json_data.getString("email"), "", "", "", false, false, 0.0, 0.0, 0.0);
+                    user = new User("", "", json_data.getString("name").toUpperCase(), json_data.getString("firstName"), json_data.getString("email"), "", "", "", false, false, 0.0, 0.0, 0.0);
                     result.add(user);
                 }
             }
