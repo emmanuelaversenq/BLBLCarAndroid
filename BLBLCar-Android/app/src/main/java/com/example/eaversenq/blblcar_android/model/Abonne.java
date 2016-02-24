@@ -34,7 +34,7 @@ public class Abonne {
         double t5 = t1 + t4;
         double rad_dist = Math.atan(-t5/Math.sqrt(-t5 * t5 +1)) + 2 * Math.atan(1);
         distance = (rad_dist * 3437.74677 * 1.1508) * 1.6093470878864446;
-        distance /= 1000;
+ //       distance /= 1000;
         Log.i("List", "Distance = " + distance);
     }
 

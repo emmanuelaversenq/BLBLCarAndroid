@@ -38,9 +38,9 @@ public class AbonneService {
         ArrayList<Abonne> result = new ArrayList<Abonne>();
 
         Log.i("List", "Le service « fournirListeAbonne » n'a retourné aucun abonné");
-        result.add(new Abonne("Paul", "DURAND", "paul.durand@wanadoo.fr", "43.6086616", "1.4476179000000684"));
-        result.add(new Abonne("Jenny", "KETAMER", "jenny.ketamer@free.fr", "43.6489616", "1.4476179000000684"));
-        result.add(new Abonne("Nadine", "AMOK", "nadine.amok@gmail.com", "43.545368", "1.5134387000000515"));
+        result.add(new Abonne("Paul", "DURAND", "paul.durand@wanadoo.fr", "1.4476179000000684", "43.6086616"));
+        result.add(new Abonne("Jenny", "KETAMER", "jenny.ketamer@free.fr", "1.4476179000000684", "43.6489616"));
+        result.add(new Abonne("Nadine", "AMOK", "nadine.amok@gmail.com", "1.5134387000000515", "43.545368"));
 
         return result;
     }
