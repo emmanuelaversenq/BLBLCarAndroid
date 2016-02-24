@@ -44,7 +44,7 @@ public class UserListAll extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... params) {
         try {
-            URL url = new URL("http://blblcar.cloudapp.net/listUserTest.php");
+            URL url = new URL("http://blblcar.cloudapp.net/listUserFull.php");
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
             con.setDoOutput(true);
