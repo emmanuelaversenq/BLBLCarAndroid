@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eaversenq.blblcar_android.model.Abonne;
+import com.example.eaversenq.blblcar_android.model.Connexion;
 import com.example.eaversenq.blblcar_android.model.User;
 import com.example.eaversenq.blblcar_android.model.UserListAll;
 import com.example.eaversenq.blblcar_android.service.AbonneService;
@@ -84,6 +85,8 @@ public class AbonneActivity extends Activity {
 
         //On récupère les composants graphiques
         editDepart = (EditText) findViewById(R.id.editDepart);
+        //editDepart.setText("1 rue des muguets,  31700 Blagnac");
+        editDepart.setText(Connexion.getInstance().getAdresse() + " , " + Connexion.getInstance().getVille());
         // editArrivee = (EditText) findViewById(R.id.editArrivee);
         editArrivee = (EditText) findViewById(R.id.editArrivée);
         //editPerimetre =(EditText)
