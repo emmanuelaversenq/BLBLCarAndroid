@@ -60,24 +60,6 @@ public class GeolocalisationService extends Context {
     private double latitude;
     private double longitude;
 
-
-
-    //calcule la distance entre deux points
-    public double distance(double lat_a, double lon_a, double lat_b, double lon_b)  {
-        double a = Math.PI / 180;
-        double lat1 = lat_a * a;
-        double lat2 = lat_b * a;
-        double lon1 = lon_a * a;
-        double lon2 = lon_b * a;
-        double t1 = Math.sin(lat1) * Math.sin(lat2);
-        double t2 = Math.cos(lat1) * Math.cos(lat2);
-        double t3 = Math.cos(lon1 - lon2);
-        double t4 = t2 * t3;
-        double t5 = t1 + t4;
-        double rad_dist = Math.atan(-t5/Math.sqrt(-t5 * t5 +1)) + 2 * Math.atan(1);
-        return (rad_dist * 3437.74677 * 1.1508) * 1.6093470878864446;
-    }
-
     public void rechercheCoordonnees(String adresse, String ville) {
         String adresse2 = adresse + ", " + ville;
         Geocoder geocoder = new Geocoder(this);

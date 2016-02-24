@@ -34,7 +34,6 @@ public class AbonneActivity extends Activity {
     private Button btnPerimetre;
     private TableLayout table;
 
-    //private ArrayList<User> userList;
     private ArrayList<Abonne> userList;
     private ArrayList<Abonne> userSubList = new ArrayList<Abonne>();
     private UserListAll myList;
@@ -53,7 +52,6 @@ public class AbonneActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     public void run() {
                         strTrairement = myList.getResultBack();
-                        //userList = AbonneService.fournirListeUserBDD(strTrairement);
                         userList = AbonneService.fournirListeAbonne(strTrairement);
                         extractSubList();
                     }
@@ -133,6 +131,9 @@ public class AbonneActivity extends Activity {
      * Extrait la liste des abonnés filtrés par rapport au périmètre
      */
     private void extractSubList() {
+
+        if (userList.size() == 0) Log.i("List", "Le service n'a retourné aucun élément");
+
         double radius = Double.parseDouble(editPerimetre.getText().toString());
         userSubList.clear();
         for (int i = 0 ; i < userList.size(); i++) {
@@ -166,12 +167,12 @@ public class AbonneActivity extends Activity {
         table.addView(row);
 
         // Corps de la liste
-        for (int i = 0 ; i < userList.size(); i++) {
+        for (int i = 0 ; i < userSubList.size(); i++) {
 
                 row = new TableRow(this);
-                tvPrenom = formatCell(userList.get(i).getPrenom(), (i % 2 == 1));
-                tvNom = formatCell(userList.get(i).getNom(), (i % 2 == 1));
-                tvMail = formatCell(userList.get(i).getEmail(), (i % 2 == 1));
+                tvPrenom = formatCell(userSubList.get(i).getPrenom(), (i % 2 == 1));
+                tvNom = formatCell(userSubList.get(i).getNom(), (i % 2 == 1));
+                tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
             tvMail.setTextSize(10);
 
                 row.addView(tvPrenom);
@@ -191,4 +192,7 @@ public class AbonneActivity extends Activity {
         return result;
     }
 
+    public ArrayList<Abonne> getUserSubList() {
+        return userSubList;
+    }
 }
