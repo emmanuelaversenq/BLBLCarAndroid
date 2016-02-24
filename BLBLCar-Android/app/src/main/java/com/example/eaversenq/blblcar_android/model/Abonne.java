@@ -9,13 +9,12 @@ public class Abonne {
     double latitude;
     double distance;
 
-    public Abonne(String prenom, String nom, String email, String longitude, String latitude, String distance) {
+    public Abonne(String prenom, String nom, String email, String longitude, String latitude) {
         this.prenom = prenom;
         this.nom = nom;
         this.email = email;
-        this.longitude = Double.parseDouble(longitude);
-        this.latitude = Double.parseDouble(latitude);
-        this.distance = Double.parseDouble(distance);
+        this.longitude = (longitude == null || longitude.equals("") ? 0. : Double.parseDouble(longitude));
+        this.latitude = (latitude == null || latitude.equals("") ? 0. : Double.parseDouble(latitude));
     }
 
     public String getPrenom() {

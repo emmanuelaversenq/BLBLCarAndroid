@@ -21,8 +21,8 @@ public class AbonneService {
             JSONArray jArray = new JSONArray(strJson);
             for(int i=0;i<jArray.length();i++){
                 JSONObject json_data = jArray.getJSONObject(i);
-                // abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), json_data.getString("longitude"),  json_data.getString("latitude"), json_data.getString("distance"));
-                abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), "",  "", "");
+                // abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), json_data.getString("longitude"),  json_data.getString("latitude"));
+                abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), "",  "");
                 result.add(abonne);
             }
         } catch(JSONException e) {

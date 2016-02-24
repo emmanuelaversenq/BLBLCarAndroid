@@ -17,6 +17,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eaversenq.blblcar_android.model.Abonne;
 import com.example.eaversenq.blblcar_android.model.User;
 import com.example.eaversenq.blblcar_android.model.UserListAll;
 import com.example.eaversenq.blblcar_android.service.AbonneService;
@@ -29,10 +30,11 @@ public class AbonneActivity extends Activity {
     private EditText editArrivee;
     private EditText editPerimetre;
     private Button btnRechercher;
+    private Button btnPerimetre;
     private TableLayout table;
 
-    private ArrayList<User> userList;
-    private ArrayList<User> userSubList;
+    private ArrayList<Abonne> userList;
+    private ArrayList<Abonne> userSubList;
     private UserListAll myList;
     private String strTrairement;
 
@@ -49,7 +51,8 @@ public class AbonneActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     public void run() {
                         strTrairement = myList.getResultBack();
-                        userList = AbonneService.fournirListeUserBDD(strTrairement);
+                        //userList = AbonneService.fournirListeUserBDD(strTrairement);
+                        userList = AbonneService.fournirListeAbonne(strTrairement);
                         loadTableAbonne();
                     }
                 });
@@ -85,7 +88,7 @@ public class AbonneActivity extends Activity {
         editArrivee = (EditText) findViewById(R.id.editArrivée);
         //editPerimetre =(EditText)
         editPerimetre =(EditText) findViewById(R.id.editPerimetre);
-
+        btnPerimetre = (Button) findViewById(R.id.btnValidePerimetre);
         btnRechercher = (Button) findViewById(R.id.btnSearch);
 
         btnRechercher.setOnClickListener(new OnClickListener() {
