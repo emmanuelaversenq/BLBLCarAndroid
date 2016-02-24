@@ -150,7 +150,6 @@ public class AbonneActivity extends Activity {
         TextView tvPrenom;
         TextView tvNom;
         TextView tvMail;
-        TextView tvDistance;
 
         // On vide la table
         table.removeAllViews();
@@ -160,11 +159,9 @@ public class AbonneActivity extends Activity {
         tvPrenom = formatCell(getString(R.string.prenom), true);
         tvNom = formatCell(getString(R.string.nom), true);
         tvMail = formatCell(getString(R.string.email), true);
-        tvDistance = formatCell("Distance", true);
         row.addView(tvPrenom);
         row.addView(tvNom);
         row.addView(tvMail);
-        row.addView(tvDistance);
         table.addView(row);
 
         // Corps de la liste
@@ -174,13 +171,11 @@ public class AbonneActivity extends Activity {
             tvPrenom = formatCell(userSubList.get(i).getPrenom(), (i % 2 == 1));
             tvNom = formatCell(userSubList.get(i).getNom(), (i % 2 == 1));
             tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
-            tvDistance = formatCell("" + userSubList.get(i).getLatitude(), (i % 2 == 1));
             tvMail.setTextSize(10);
 
             row.addView(tvPrenom);
             row.addView(tvNom);
             row.addView(tvMail);
-            row.addView(tvDistance);
             table.addView(row);
         }
     }
