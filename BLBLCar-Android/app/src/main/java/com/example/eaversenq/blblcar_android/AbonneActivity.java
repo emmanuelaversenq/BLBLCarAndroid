@@ -174,7 +174,7 @@ public class AbonneActivity extends Activity {
             tvPrenom = formatCell(userSubList.get(i).getPrenom(), (i % 2 == 1));
             tvNom = formatCell(userSubList.get(i).getNom(), (i % 2 == 1));
             tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
-            tvDistance = formatCell("" + userSubList.get(i).getDistance(), (i % 2 == 1));
+            tvDistance = formatCell("" + userSubList.get(i).getLatitude(), (i % 2 == 1));
             tvMail.setTextSize(10);
 
             row.addView(tvPrenom);

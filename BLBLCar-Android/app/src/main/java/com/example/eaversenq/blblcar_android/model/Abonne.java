@@ -1,5 +1,7 @@
 package com.example.eaversenq.blblcar_android.model;
 
+import android.util.Log;
+
 public class Abonne {
 
     String prenom;
@@ -19,7 +21,7 @@ public class Abonne {
     }
 
     //calcule la distance entre deux points
-    private double calcDistance()  {
+    private void calcDistance()  {
         double a = Math.PI / 180;
         double lat1 = latitude * a;
         double lat2 = Connexion.getInstance().getLatitude() * a;
@@ -31,7 +33,9 @@ public class Abonne {
         double t4 = t2 * t3;
         double t5 = t1 + t4;
         double rad_dist = Math.atan(-t5/Math.sqrt(-t5 * t5 +1)) + 2 * Math.atan(1);
-        return (rad_dist * 3437.74677 * 1.1508) * 1.6093470878864446;
+        distance = (rad_dist * 3437.74677 * 1.1508) * 1.6093470878864446;
+        distance /= 1000;
+        Log.i("List", "Distance = " + distance);
     }
 
     public String getPrenom() {
