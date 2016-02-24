@@ -46,16 +46,17 @@ public class IdentificationThread extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... params) {
         try {
-            String strURl = "http://blblcar.cloudapp.net/testLogin.php?log='"+log+"'&pwd='"+pwd+"' ";
+            String strURl = "http://blblcar.cloudapp.net/testLogin.php?log="+log+"&pwd="+pwd+" ";
+            Log.i("stephan",strURl);
             URL url = new URL(strURl);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
             con.setDoOutput(true);
 
-            //  int response = con.getResponseCode();
+              int response = con.getResponseCode();
             //  String mess = con.getResponseMessage();
 
-            // Log.i("stephan","Code " + response);
+             Log.i("stephan","Code " + response);
             // Log.i("Stephan","Message " + mess);
 
             BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));
