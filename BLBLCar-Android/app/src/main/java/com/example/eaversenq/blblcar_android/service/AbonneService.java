@@ -40,7 +40,7 @@ public class AbonneService {
         Log.i("List", "Le service « fournirListeAbonne » n'a retourné aucun abonné");
         result.add(new Abonne("Paul", "DURAND", "paul.durand@wanadoo.fr", "43.6086616", "1.4476179000000684"));
         result.add(new Abonne("Jenny", "KETAMER", "jenny.ketamer@free.fr", "43.6489616", "1.4476179000000684"));
-        result.add(new Abonne("Nadine", "AMOK", "nadine.amok@gmail.com", "43.6489616", "1.4782941999999366"));
+        result.add(new Abonne("Nadine", "AMOK", "nadine.amok@gmail.com", "43.545368", "1.5134387000000515"));
 
         return result;
     }
