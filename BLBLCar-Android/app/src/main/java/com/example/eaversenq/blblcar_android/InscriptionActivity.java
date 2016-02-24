@@ -122,6 +122,12 @@ public class InscriptionActivity extends Activity {
                     email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
                     passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
 
+            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
+            
+            Intent intent = new Intent(this, AbonneActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivityForResult(intent, 0);
+
 
             Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
         }

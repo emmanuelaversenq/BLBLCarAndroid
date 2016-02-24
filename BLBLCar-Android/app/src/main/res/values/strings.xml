@@ -23,8 +23,8 @@
     <string name="ville">City</string>
     <string name="conducteur">Driver</string>
     <string name="passager">Passenger</string>
-    <string name="arrivee">Start</string>
-    <string name="depart">Finish</string>
+    <string name="arrivee">Finish</string>
+    <string name="depart">Star</string>
     <string name="perimetre">Scope of research (in km)</string>
     <string name="mapsGoogle">MAP GOOGLE</string>
     <string name="blblcar">BL BL CAR</string>
