@@ -3,7 +3,7 @@
 
     <!-- Bouton -->
     <string name="enregistrer">Record</string>
-    <string name="connect">Se Connecter</string>
+    <string name="connect">To log in</string>
     <string name="abonne">Subscriber</string>
     <string name="accueil">Welcome</string>
     <string name="identification">Login</string>
