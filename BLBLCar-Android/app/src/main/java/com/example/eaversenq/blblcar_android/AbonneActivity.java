@@ -132,8 +132,6 @@ public class AbonneActivity extends Activity {
      */
     private void extractSubList() {
 
-        if (userList.size() == 0) Log.i("List", "Le service n'a retourné aucun élément");
-
         double radius = Double.parseDouble(editPerimetre.getText().toString());
         userSubList.clear();
         for (int i = 0 ; i < userList.size(); i++) {
@@ -152,6 +150,7 @@ public class AbonneActivity extends Activity {
         TextView tvPrenom;
         TextView tvNom;
         TextView tvMail;
+        TextView tvDistance;
 
         // On vide la table
         table.removeAllViews();
@@ -161,23 +160,27 @@ public class AbonneActivity extends Activity {
         tvPrenom = formatCell(getString(R.string.prenom), true);
         tvNom = formatCell(getString(R.string.nom), true);
         tvMail = formatCell(getString(R.string.email), true);
+        tvDistance = formatCell("Distance", true);
         row.addView(tvPrenom);
         row.addView(tvNom);
         row.addView(tvMail);
+        row.addView(tvDistance);
         table.addView(row);
 
         // Corps de la liste
         for (int i = 0 ; i < userSubList.size(); i++) {
 
-                row = new TableRow(this);
-                tvPrenom = formatCell(userSubList.get(i).getPrenom(), (i % 2 == 1));
-                tvNom = formatCell(userSubList.get(i).getNom(), (i % 2 == 1));
-                tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
+            row = new TableRow(this);
+            tvPrenom = formatCell(userSubList.get(i).getPrenom(), (i % 2 == 1));
+            tvNom = formatCell(userSubList.get(i).getNom(), (i % 2 == 1));
+            tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
+            tvDistance = formatCell("" + userSubList.get(i).getDistance(), (i % 2 == 1));
             tvMail.setTextSize(10);
 
-                row.addView(tvPrenom);
-                row.addView(tvNom);
-                row.addView(tvMail);
+            row.addView(tvPrenom);
+            row.addView(tvNom);
+            row.addView(tvMail);
+            row.addView(tvDistance);
             table.addView(row);
         }
     }

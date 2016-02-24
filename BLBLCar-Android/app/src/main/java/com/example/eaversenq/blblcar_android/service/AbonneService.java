@@ -21,13 +21,27 @@ public class AbonneService {
             JSONArray jArray = new JSONArray(strJson);
             for(int i=0;i<jArray.length();i++){
                 JSONObject json_data = jArray.getJSONObject(i);
-                // abonne = new Abonne(json_data.getString("firstname"), json_data.getString("name").toUpperCase(), json_data.getString("email"), json_data.getString("longitude"),  json_data.getString("latitude"));
-                abonne = new Abonne(json_data.getString("firstName"), json_data.getString("name").toUpperCase(), json_data.getString("email"), "",  "");
+                abonne = new Abonne(json_data.getString("firstName"), json_data.getString("name").toUpperCase(), json_data.getString("email"), json_data.getString("longitude"),  json_data.getString("latitude"));
                 result.add(abonne);
             }
         } catch(JSONException e) {
             Log.e("log_tag", "Error parsing data " + e.toString());
         }
+        if (result.size() == 0) result = defaultFournirListeAbonne();
+        return result;
+    }
+
+    /*
+     * méthode bouchon qui donne un exemple de fourniture de données
+     */
+    public static ArrayList<Abonne> defaultFournirListeAbonne() {
+        ArrayList<Abonne> result = new ArrayList<Abonne>();
+
+        Log.i("List", "Le service « fournirListeAbonne » n'a retourné aucun abonné");
+        result.add(new Abonne("Paul", "DURAND", "paul.durand@wanadoo.fr", "43.6086616", "1.4476179000000684"));
+        result.add(new Abonne("Jenny", "KETAMER", "jenny.ketamer@free.fr", "43.6489616", "1.4476179000000684"));
+        result.add(new Abonne("Nadine", "AMOK", "nadine.amok@gmail.com", "43.6489616", "1.4782941999999366"));
+
         return result;
     }
 }
