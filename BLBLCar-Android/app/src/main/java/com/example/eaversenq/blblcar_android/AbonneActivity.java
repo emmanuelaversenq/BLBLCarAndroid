@@ -35,7 +35,7 @@ public class AbonneActivity extends Activity {
     private TableLayout table;
 
     private ArrayList<Abonne> userList;
-    private ArrayList<Abonne> userSubList = new ArrayList<Abonne>();
+    private static ArrayList<Abonne> userSubList = new ArrayList<Abonne>();
     private UserListAll myList;
     private String strTrairement;
 
