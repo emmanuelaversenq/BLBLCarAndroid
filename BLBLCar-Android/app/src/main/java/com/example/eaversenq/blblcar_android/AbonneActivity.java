@@ -190,7 +190,7 @@ public class AbonneActivity extends Activity {
         return result;
     }
 
-    public ArrayList<Abonne> getUserSubList() {
+    public static ArrayList<Abonne> getUserSubList() {
         return userSubList;
     }
 }

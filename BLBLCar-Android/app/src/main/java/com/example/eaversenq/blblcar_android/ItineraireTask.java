@@ -23,6 +23,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.widget.Toast;
 /**
  * Created by CGONZALEZ on 10/02/2016.
@@ -47,6 +48,9 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
     private String editArrivee;
     private String editPerimetre;
     private final ArrayList<LatLng> lstLatLng = new ArrayList<LatLng>();
+    private final ArrayList<LatLng> tableauMarqueurs = new ArrayList<LatLng>();
+
+
 
     /*******************************************************/
     /** METHODES / FONCTIONS.
@@ -168,11 +172,23 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
         }
     }
 
+    public void intialisationTableauMarqueursUser(){
+        //  On inititalise un tableau de markers avec latitude/longitude des utilisateurs présents dans le périmètre
+        // = sublist de AbonneActivity
+        int lat = 0, lng = 0;
+        for(int i = 0; i< AbonneActivity.getUserSubList().size();i++){
+            tableauMarqueurs.add(new LatLng((double) lat/AbonneActivity.getUserSubList().get(i).getLatitude(), lng/ AbonneActivity.getUserSubList().get(i).getLongitude()));
+            Log.i("intialisationTableau: ", " result : " + tableauMarqueurs.get(i));
+        }
+    }
+
+
     /**
      * {@inheritDoc}
      */
     @Override
     protected void onPostExecute(final Boolean result) {
+        intialisationTableauMarqueursUser();
         if (!result) {
             Toast.makeText(context, TOAST_ERR_MAJ, Toast.LENGTH_SHORT).show();
         } else {
