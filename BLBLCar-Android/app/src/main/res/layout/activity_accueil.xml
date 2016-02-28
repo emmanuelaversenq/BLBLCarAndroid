@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.eaversenq.blblcar_android.AccueilActivity">
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,53 +19,55 @@
         android:text="@string/accueil"
         android:id="@+id/TextView"
         android:textColor="#99001c"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
         android:textStyle="bold" />
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/inscription"
-        android:id="@+id/but_inscription"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inscription"
+            android:id="@+id/but_inscription" />
 
-    <Button
+        <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/identification"
-        android:id="@+id/but_identification"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView5" />
+        android:id="@+id/but_identification" />
+     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/blblcar"
-        android:id="@+id/textView5"
-        android:singleLine="true"
-        android:textAlignment="center"
-        android:textStyle="bold|italic"
-        android:theme="@style/AlertDialog.AppCompat.Light"
-        android:typeface="serif"
-        android:inputType="text"
-        android:foreground="#ffffff"
-        android:autoText="true"
-        android:background="#99001c"
-        android:layout_marginBottom="70dp"
-        android:textColor="#060606"
-        android:textSize="@dimen/abc_action_bar_default_height_material"
-        android:layout_above="@+id/imageView"
-        android:layout_toEndOf="@+id/TextView" />
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/covoiturage"
-        android:layout_marginBottom="158dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView5" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blblcar"
+            android:id="@+id/textView5"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:typeface="serif"
+            android:foreground="#ffffff"
+            android:background="#99001c"
+            android:layout_marginBottom="70dp"
+            android:textColor="#060606"
+            android:textSize="@dimen/abc_action_bar_default_height_material" />
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/covoiturage"
+            android:layout_gravity="center"
+            android:layout_marginBottom="158dp" />
+    </LinearLayout>
+
+</LinearLayout>
