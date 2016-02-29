@@ -28,6 +28,7 @@
     <string name="perimetre">Périmettre de recherche (en km)</string>
     <string name="mapsGoogle">MAP GOOGLE</string>
     <string name="blblcar">BL BL CAR</string>
+    <string name="champsObligatoire">* Champs Obligatoires</string>
 
     <!-- Message -->
     <string name="msgLogin">Le Login doit être renseigné</string>

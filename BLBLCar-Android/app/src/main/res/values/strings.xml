@@ -28,6 +28,8 @@
     <string name="perimetre">Scope of research (in km)</string>
     <string name="mapsGoogle">MAP GOOGLE</string>
     <string name="blblcar">BL BL CAR</string>
+    <string name="champsObligatoire">* Raquired Fields</string>
+
 
     <!-- Message -->
     <string name="msgLogin">The Login must be informed</string>
