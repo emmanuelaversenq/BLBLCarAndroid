@@ -79,7 +79,7 @@ public class Connexion {
 
     public void setLatitude(double latitude) {this.latitude = latitude;}
 
-    private Connexion(){}
+    public Connexion(){}
 
     public void loudConnexion(String login, String pwd, String nom, String prenom, String email, String adresse, String codePostal,
                 String ville, boolean passager, boolean conducteur, double distance, double latitude, double longitude) {

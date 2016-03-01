@@ -2,6 +2,7 @@ package com.example.eaversenq.blblcar_android;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -11,6 +12,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.example.eaversenq.blblcar_android.model.Abonne;
+import com.example.eaversenq.blblcar_android.model.Connexion;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -51,7 +54,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
     private String editArrivee;
     private String editPerimetre;
     private final ArrayList<LatLng> lstLatLng = new ArrayList<LatLng>();
-    private final ArrayList<LatLng> tableauMarqueurs = new ArrayList<LatLng>();
+    private final ArrayList<Abonne> tableauMarqueurs = new ArrayList<Abonne>();
 
 
 
@@ -175,7 +178,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
         }
     }
 
-    public void intialisationTableauMarqueursUser(){
+   /* public void intialisationTableauMarqueursUser(){
         //  On inititalise un tableau de markers avec latitude/longitude des utilisateurs présents dans le périmètre
         // = sublist de AbonneActivity
         int lat = 0, lng = 0;
@@ -183,7 +186,7 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             tableauMarqueurs.add(new LatLng((double) lat/AbonneActivity.getUserSubList().get(i).getLatitude(), lng/ AbonneActivity.getUserSubList().get(i).getLongitude()));
             Log.i("intialisationTableau: ", " result : " + tableauMarqueurs.get(i));
         }
-    }
+    }*/
 /* public void ajouteMarqueur( LatLng latlng ) {
         Long latitude = latlng.lat;
         Long longitude = latlng.lng;
@@ -199,12 +202,13 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
 
 
 
+
     /**
      * {@inheritDoc}
      */
     @Override
     protected void onPostExecute(final Boolean result) {
-        intialisationTableauMarqueursUser();
+
         if (!result) {
             Toast.makeText(context, TOAST_ERR_MAJ, Toast.LENGTH_SHORT).show();
         } else {
@@ -218,9 +222,11 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             }
 
             //On déclare un marker vert que l'on placera sur le départ
-            final MarkerOptions markerA = new MarkerOptions();
+            final MarkerOptions markerA = new MarkerOptions()
+                    .title("My sweet home")
+                    .icon(fromResource(R.drawable.myhome));
             markerA.position(lstLatLng.get(0));
-            markerA.icon(defaultMarker(HUE_GREEN));
+           // markerA.icon(defaultMarker(HUE_GREEN));
 
             //On déclare un marker rouge que l'on mettra sur l'arrivée
             final MarkerOptions markerB = new MarkerOptions()
@@ -239,23 +245,28 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             gMap.addMarker(markerB);
 
             // ajout marqueurs
-            for (int i =0; i< tableauMarqueurs.size();i++){
-                LatLng ll = new LatLng(tableauMarqueurs.get(i).latitude, tableauMarqueurs.get(i).longitude);
-                double lat = tableauMarqueurs.get(i).latitude ;
-                double longi = tableauMarqueurs.get(i).longitude;
-
-                gMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(lat, longi))
-                                .icon(defaultMarker(HUE_BLUE))
-                );
 
 
-            }
+            ajoutMarqueursAbonnés();
             final Circle circle = gMap.addCircle(new CircleOptions()
                     .center(lstLatLng.get(0))
                     .radius(Double.parseDouble(editPerimetre)*1000)// en mètres => km
                     .strokeWidth(5).strokeColor(Color.RED));
         }
 
+    }
+
+    private void ajoutMarqueursAbonnés() {
+        for(int i = 0; i< AbonneActivity.getUserSubList().size();i++){
+            String nom = AbonneActivity.getUserSubList().get(i).getNom() + " " + AbonneActivity.getUserSubList().get(i).getPrenom();
+            Double lat = AbonneActivity.getUserSubList().get(i).getLatitude();
+            Double longi = AbonneActivity.getUserSubList().get(i).getLongitude();
+            LatLng latlong = new LatLng(lat, longi);
+            MarkerOptions marker = new MarkerOptions()
+                    .position(latlong)
+                    .title(nom);
+            marker.icon(fromResource(R.drawable.iconevoiture));
+            gMap.addMarker(marker);
+        }
     }
 }
