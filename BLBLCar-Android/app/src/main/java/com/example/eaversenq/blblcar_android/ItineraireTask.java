@@ -25,6 +25,9 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
+
+import static com.google.android.gms.maps.model.BitmapDescriptorFactory.*;
+
 /**
  * Created by CGONZALEZ on 10/02/2016.
  */
@@ -181,6 +184,19 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             Log.i("intialisationTableau: ", " result : " + tableauMarqueurs.get(i));
         }
     }
+/* public void ajouteMarqueur( LatLng latlng ) {
+        Long latitude = latlng.lat;
+        Long longitude = latlng.lng;
+        final  MarkerOptions marqueurs = {
+                map: gMap,
+                marqueurs.position: new google.maps.LatLng( latitude, longitude )
+        };
+        Long marqueur = new google.maps.Marker( MarkerOptions );
+        zoneMarqueurs.extend( marqueur.getPosition() );
+    }; */
+
+
+
 
 
     /**
@@ -204,12 +220,12 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             //On déclare un marker vert que l'on placera sur le départ
             final MarkerOptions markerA = new MarkerOptions();
             markerA.position(lstLatLng.get(0));
-            markerA.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+            markerA.icon(defaultMarker(HUE_GREEN));
 
             //On déclare un marker rouge que l'on mettra sur l'arrivée
             final MarkerOptions markerB = new MarkerOptions()
                     .title("Berger-Levrault")
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.bl))
+                    .icon(fromResource(R.drawable.bl))
                     .snippet("Mon lieu de travail");
 
 
@@ -221,6 +237,20 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             gMap.addMarker(markerA);
             gMap.addPolyline(polylines);
             gMap.addMarker(markerB);
+
+            // ajout marqueurs
+            for (int i =0; i< tableauMarqueurs.size();i++){
+                LatLng ll = new LatLng(tableauMarqueurs.get(i).latitude, tableauMarqueurs.get(i).longitude);
+                double lat = tableauMarqueurs.get(i).latitude ;
+                double longi = tableauMarqueurs.get(i).longitude;
+
+                gMap.addMarker(new MarkerOptions()
+                                .position(new LatLng(lat, longi))
+                                .icon(defaultMarker(HUE_BLUE))
+                );
+
+
+            }
             final Circle circle = gMap.addCircle(new CircleOptions()
                     .center(lstLatLng.get(0))
                     .radius(Double.parseDouble(editPerimetre)*1000)// en mètres => km
