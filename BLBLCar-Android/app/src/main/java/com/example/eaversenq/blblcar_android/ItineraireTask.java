@@ -26,6 +26,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -220,26 +221,12 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             for (final LatLng latLng : lstLatLng) {
                 polylines.add(latLng);
             }
-
-            //On déclare un marker vert que l'on placera sur le départ
-            final MarkerOptions markerA = new MarkerOptions()
-                    .title("My sweet home")
-                    .icon(fromResource(R.drawable.myhome));
-            markerA.position(lstLatLng.get(0));
-           // markerA.icon(defaultMarker(HUE_GREEN));
-
-            //On déclare un marker rouge que l'on mettra sur l'arrivée
-            final MarkerOptions markerB = new MarkerOptions()
-                    .title("Berger-Levrault")
-                    .icon(fromResource(R.drawable.bl))
-                    .snippet("Mon lieu de travail");
-
-
-            markerB.position(lstLatLng.get(lstLatLng.size() - 1));
-            // markerB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-
+            final MarkerOptions markerA = ajoutMarqueurDepart();
+            final MarkerOptions markerB = ajoutMarqueurArrivee();
+            ajoutMarqueursAbonnés();
+            ajoutCircle();
             //On met à jour la carte
-            gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lstLatLng.get(0), 10));
+            gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lstLatLng.get(0), 11));
             gMap.addMarker(markerA);
             gMap.addPolyline(polylines);
             gMap.addMarker(markerB);
@@ -247,13 +234,38 @@ public class ItineraireTask extends AsyncTask<Void, Integer, Boolean> {
             // ajout marqueurs
 
 
-            ajoutMarqueursAbonnés();
-            final Circle circle = gMap.addCircle(new CircleOptions()
-                    .center(lstLatLng.get(0))
-                    .radius(Double.parseDouble(editPerimetre)*1000)// en mètres => km
-                    .strokeWidth(5).strokeColor(Color.RED));
+
         }
 
+    }
+
+    private void ajoutCircle() {
+        final Circle circle = gMap.addCircle(new CircleOptions()
+                .center(lstLatLng.get(0))
+                .radius(Double.parseDouble(editPerimetre)*1000)// en mètres => km
+                .strokeWidth(5).strokeColor(Color.RED));
+    }
+
+    @NonNull
+    private MarkerOptions ajoutMarqueurArrivee() {
+        //On déclare un marker  que l'on mettra sur l'arrivée
+        final MarkerOptions markerB = new MarkerOptions()
+                .title("Berger-Levrault")
+                .icon(fromResource(R.drawable.bl))
+                .snippet("Mon lieu de travail");
+        markerB.position(lstLatLng.get(lstLatLng.size() - 1));
+        return markerB;
+    }
+
+    @NonNull
+    private MarkerOptions ajoutMarqueurDepart() {
+        //On déclare un marker  que l'on placera sur le départ
+        final MarkerOptions markerA = new MarkerOptions()
+                .title("My sweet home")
+                .icon(fromResource(R.drawable.myhome));
+        markerA.position(lstLatLng.get(0));
+        // markerA.icon(defaultMarker(HUE_GREEN));
+        return markerA;
     }
 
     private void ajoutMarqueursAbonnés() {
