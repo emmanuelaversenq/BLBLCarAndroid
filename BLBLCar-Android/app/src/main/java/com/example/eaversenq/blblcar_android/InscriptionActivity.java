@@ -129,9 +129,6 @@ public class InscriptionActivity extends Activity {
             user=new User(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
                     email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
                     passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
-            Connexion.getInstance().loudConnexion(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
-                    email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
-                    passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
 
 
             // Lancement du thread pour l'inscription
@@ -166,6 +163,10 @@ public class InscriptionActivity extends Activity {
                 }
             });
             inscrip = new InscriptionThread(handler,user);
+            Connexion.getInstance().loudConnexion(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
+                    email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
+                    passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
+
             inscrip.execute();
 
             Intent intent = new Intent(this, AbonneActivity.class);
