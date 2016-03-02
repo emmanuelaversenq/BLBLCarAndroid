@@ -6,161 +6,220 @@
     android:nestedScrollingEnabled="false"
     android:textAlignment="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/abonne"
-        android:id="@+id/textView3"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textStyle="bold"
-        android:textColor="#99001c" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/accueil"
-        android:id="@+id/but_exit"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="79dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/inscription"
-        android:id="@+id/but_inscription"
-        android:layout_marginEnd="104dp"
-        android:allowUndo="false"
-        android:layout_above="@+id/linearLayout"
-        android:layout_toStartOf="@+id/but_exit" />
-
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/but_exit"
-        android:padding="10dp"
-        android:id="@+id/linearLayout">
-
+        android:layout_height="match_parent">
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3">
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Départ"
-                android:id="@+id/TextView"
-                android:singleLine="false"
-                android:layout_weight="1"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_height="wrap_content"
-                android:id="@+id/editDepart"
-                android:layout_weight="2"
-                android:layout_width="0dp"
-                android:lines="1"
-                android:inputType="text" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/arrivee"
-                android:id="@+id/textView"
-                android:layout_weight="1"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/editArrivée"
-                android:layout_weight="2"
-                android:autoText="false"
-                android:inputType="text"
-                android:lines="1"
-                android:maxLines="1"
-                android:text="64 rue Jean Rostand, Labege" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/perimetre"
-                android:id="@+id/Distance"
-                android:layout_weight="1"
-                android:textStyle="bold"/>
-
-            <EditText
-                android:layout_width="72dp"
-                android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/editPerimetre"
-                android:lines="1"
-                android:maxLines="1"
-                android:text="5"
-                android:singleLine="true"
-                android:layout_marginRight="120dp" />
-
-            <Button
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/valider"
-                android:id="@+id/btnValidePerimetre" />
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/abonne"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="#99001c" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accueil"
+                    android:id="@+id/but_exit" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscription"
+                    android:id="@+id/but_inscription"
+                    android:layout_toStartOf="@+id/but_exit" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nom"
+                    android:textSize="25px"
+                    android:textStyle="bold"
+                    android:id="@+id/textV90"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="25px"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/editNom" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/email"
+                    android:textSize="25px"
+                    android:textStyle="bold"
+                    android:id="@+id/textV92"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="25px"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/editEMail" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/identification"
+                    android:textSize="25px"
+                    android:textStyle="bold"
+                    android:id="@+id/textV5" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="25px"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/editIdentification"
+                    android:layout_weight="1" />
+            </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"></LinearLayout>
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/but_exit"
+                android:id="@+id/linearLayout">
 
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
 
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/depart"
+                        android:id="@+id/TextView"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editDepart"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:lines="1"
+                        android:inputType="text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/arrivee"
+                        android:id="@+id/textView"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editArrivée"
+                        android:layout_weight="2"
+                        android:autoText="false"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="64 rue Jean Rostand, Labege" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/perimetre"
+                        android:id="@+id/Distance"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editPerimetre"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="5"
+                        android:singleLine="true"
+                        android:layout_marginRight="120dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/valider"
+                        android:id="@+id/btnValidePerimetre" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/afficheCarte"
+                    android:id="@+id/btnSearch" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:stretchColumns="0"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idTable">
+                </TableLayout>
+            </ScrollView>
         </LinearLayout>
-
-        <Button
-
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="@string/afficheCarte"
-            android:id="@+id/btnSearch" />
-    </LinearLayout>
-
-    <ScrollView
-
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
-        android:layout_below="@+id/linearLayout"
-        android:layout_alignParentStart="true">
-
-        <TableLayout
-            android:layout_width="fill_parent"
-            android:stretchColumns="0"
-            android:layout_height="wrap_content"
-            android:id="@+id/idTable">
-
-        </TableLayout>
     </ScrollView>
 
 </RelativeLayout>

@@ -31,6 +31,10 @@ public class AbonneActivity extends Activity {
     private EditText editDepart;
     private EditText editArrivee;
     private EditText editPerimetre;
+    private EditText editLogin;
+    private EditText editNomPrenom;
+//    private EditText editPrenom;
+    private EditText editEmail;
     private Button btnRechercher;
     private Button btnPerimetre;
     private TableLayout table;
@@ -87,10 +91,24 @@ public class AbonneActivity extends Activity {
         editDepart = (EditText) findViewById(R.id.editDepart);
         //editDepart.setText("1 rue des muguets,  31700 Blagnac");
         editDepart.setText(Connexion.getInstance().getAdresse() + " , " + Connexion.getInstance().getVille());
+
         // editArrivee = (EditText) findViewById(R.id.editArrivee);
         editArrivee = (EditText) findViewById(R.id.editArrivée);
         //editPerimetre =(EditText)
         editPerimetre =(EditText) findViewById(R.id.editPerimetre);
+
+        editLogin =(EditText)findViewById(R.id.editIdentification);
+        editLogin.setText(Connexion.getInstance().getLogin());
+
+        editNomPrenom = (EditText)findViewById(R.id.editNom);
+        editNomPrenom.setText(Connexion.getInstance().getNom()+ " " +Connexion.getInstance().getPrenom() );
+
+
+        editEmail= (EditText)findViewById(R.id.editEMail);
+        editEmail.setText(Connexion.getInstance().getEmail());
+
+
+//        editEmail= (EditText)findViewById(R.id.editEmail);
         btnPerimetre = (Button) findViewById(R.id.btnValidePerimetre);
         btnRechercher = (Button) findViewById(R.id.btnSearch);
         table = (TableLayout)findViewById(R.id.idTable);
@@ -120,8 +138,6 @@ public class AbonneActivity extends Activity {
                     intent.putExtra("DEPART", editDepart.getText().toString().trim());
                     intent.putExtra("ARRIVEE", editArrivee.getText().toString().trim());
                     intent.putExtra("PERIMETRE",editPerimetre.getText().toString().trim());
-
-
                     AbonneActivity.this.startActivity(intent);
                 }
             }

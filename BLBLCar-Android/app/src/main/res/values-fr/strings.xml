@@ -24,7 +24,7 @@
     <string name="conducteur">Conducteur</string>
     <string name="passager">Passager</string>
     <string name="arrivee">Arrivée</string>
-    <string name="depart">Départ</string>
+    <string name="depart">Adresse de l\'Abonné</string>
     <string name="perimetre">Périmettre de recherche (en km)</string>
     <string name="mapsGoogle">MAP GOOGLE</string>
     <string name="blblcar">BL BL CAR</string>
