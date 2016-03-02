@@ -3,19 +3,23 @@ package com.example.eaversenq.blblcar_android;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eaversenq.blblcar_android.model.Connexion;
+import com.example.eaversenq.blblcar_android.model.IdentificationThread;
+import com.example.eaversenq.blblcar_android.model.InscriptionThread;
 import com.example.eaversenq.blblcar_android.model.User;
-import com.example.eaversenq.blblcar_android.service.AbonneService;
 import com.example.eaversenq.blblcar_android.service.GeolocalisationService;
-import com.example.eaversenq.blblcar_android.service.InscriptionService;
+import com.example.eaversenq.blblcar_android.service.IdentificationService;
 
 public class InscriptionActivity extends Activity {
+    private InscriptionThread inscrip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +51,6 @@ public class InscriptionActivity extends Activity {
         boolean errInscription=false;
         boolean conducteurSelectionne=false;
         boolean passagerSelectionne=false;
-        InscriptionService inscriptionService = null;
         User user = new User();
         GeolocalisationService geolocalisation = new GeolocalisationService();
 
@@ -111,7 +114,7 @@ public class InscriptionActivity extends Activity {
             errInscription=true;
         }else {
             if (conducteur.isChecked()) {
-                 conducteurSelectionne=true;
+                conducteurSelectionne=true;
             }
             if (passager.isChecked()) {
                 passagerSelectionne=true;
@@ -125,23 +128,50 @@ public class InscriptionActivity extends Activity {
             user=new User(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
                     email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
                     passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
-/*
-            Connexion.getInstance().setAdresse(user.getAdresse().toString());
-            Connexion.getInstance().setVille(user.getVille().toString());
-            Connexion.getInstance().setLatitude(geolocalisation.getLatitude());
-            Connexion.getInstance().setLongitude(geolocalisation.getLongitude());
-*/
-            Connexion.getInstance().loudConnexion(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
-                    email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
-                    passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
+
+            // Lancement du thread pour l'inscription
+
+            Handler handler = new Handler(new Handler.Callback() {
+                @Override
+                public boolean handleMessage(final Message msg) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            String sbinscriOk = inscrip.getResultBack();
+                            //    Log.i("stephan", "sbinscriOk "+sbinscriOk);
+
+                            if (sbinscriOk.toUpperCase()=="TRUE"){
+                                Log.i("stephan", "incript ok");
+                                // Toast.makeText(this, "mot de passe corret", Toast.LENGTH_LONG).show();
+                                Button IdSeconnecter = (Button) findViewById(R.id.IdSeconnecter);
+                                IdSeconnecter.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View view) {
+                                        Intent intent = new Intent(view.getContext(), AbonneActivity.class);
+                                        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                                        startActivityForResult(intent, 0);
+                                    }
+                                });
+
+                            } else {
+                                Log.i("stephan", "incript fail");
+                                // Toast.makeText(this, R.string.msgLoginPwd, Toast.LENGTH_LONG).show();
+                            }
+                        }
+                    });
+                    return false;
+                }
+            });
+            inscrip = new InscriptionThread(handler,user);
+            inscrip.execute();
+
             Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
-            
+
             Intent intent = new Intent(this, AbonneActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
             startActivityForResult(intent, 0);
 
 
-//            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
         }
+
     }
 }
