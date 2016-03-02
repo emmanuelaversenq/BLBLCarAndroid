@@ -9,8 +9,11 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eaversenq.blblcar_android.model.Connexion;
 import com.example.eaversenq.blblcar_android.model.User;
+import com.example.eaversenq.blblcar_android.service.AbonneService;
 import com.example.eaversenq.blblcar_android.service.GeolocalisationService;
+import com.example.eaversenq.blblcar_android.service.InscriptionService;
 
 public class InscriptionActivity extends Activity {
 
@@ -44,6 +47,7 @@ public class InscriptionActivity extends Activity {
         boolean errInscription=false;
         boolean conducteurSelectionne=false;
         boolean passagerSelectionne=false;
+        InscriptionService inscriptionService = null;
         User user = new User();
         GeolocalisationService geolocalisation = new GeolocalisationService();
 
@@ -121,7 +125,15 @@ public class InscriptionActivity extends Activity {
             user=new User(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
                     email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
                     passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
-
+/*
+            Connexion.getInstance().setAdresse(user.getAdresse().toString());
+            Connexion.getInstance().setVille(user.getVille().toString());
+            Connexion.getInstance().setLatitude(geolocalisation.getLatitude());
+            Connexion.getInstance().setLongitude(geolocalisation.getLongitude());
+*/
+            Connexion.getInstance().loudConnexion(login.getText().toString(), motpasse.getText().toString(), nom.getText().toString(), prenom.getText().toString(),
+                    email.getText().toString(), adresse.getText().toString(), codePostal.getText().toString(), ville.getText().toString(),
+                    passagerSelectionne, conducteurSelectionne, 0.0,geolocalisation.getLatitude(),geolocalisation.getLongitude());
             Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
             
             Intent intent = new Intent(this, AbonneActivity.class);
@@ -129,7 +141,7 @@ public class InscriptionActivity extends Activity {
             startActivityForResult(intent, 0);
 
 
-            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
+//            Toast.makeText(this, R.string.msgInscriptionSucces, Toast.LENGTH_LONG).show();
         }
     }
 }

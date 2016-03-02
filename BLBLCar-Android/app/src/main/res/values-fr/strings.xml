@@ -29,6 +29,7 @@
     <string name="mapsGoogle">MAP GOOGLE</string>
     <string name="blblcar">BL BL CAR</string>
     <string name="champsObligatoire">* Champs Obligatoires</string>
+    <string name="distance">Distance</string>
 
     <!-- Message -->
     <string name="msgLogin">Le Login doit être renseigné</string>

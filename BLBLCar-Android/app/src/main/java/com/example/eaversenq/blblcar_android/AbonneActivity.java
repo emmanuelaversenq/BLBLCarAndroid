@@ -23,6 +23,7 @@ import com.example.eaversenq.blblcar_android.model.User;
 import com.example.eaversenq.blblcar_android.model.UserListAll;
 import com.example.eaversenq.blblcar_android.service.AbonneService;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class AbonneActivity extends Activity {
@@ -150,6 +151,7 @@ public class AbonneActivity extends Activity {
         TextView tvPrenom;
         TextView tvNom;
         TextView tvMail;
+        TextView tvDistance;
 
         // On vide la table
         table.removeAllViews();
@@ -159,9 +161,11 @@ public class AbonneActivity extends Activity {
         tvPrenom = formatCell(getString(R.string.prenom), true);
         tvNom = formatCell(getString(R.string.nom), true);
         tvMail = formatCell(getString(R.string.email), true);
+        tvDistance = formatCell(getString(R.string.distance), true);
         row.addView(tvPrenom);
         row.addView(tvNom);
         row.addView(tvMail);
+        row.addView(tvDistance);
         table.addView(row);
 
         // Corps de la liste
@@ -173,9 +177,18 @@ public class AbonneActivity extends Activity {
             tvMail = formatCell(userSubList.get(i).getEmail(), (i % 2 == 1));
             tvMail.setTextSize(10);
 
+            //Formataoge distance à 3 points avec virgule
+            DecimalFormat f= new DecimalFormat();
+            f.setMinimumFractionDigits(2);
+
+
+            tvDistance= formatCell(String.valueOf(f.format(userSubList.get(i).getDistance())),(i%2 ==1));
+
+
             row.addView(tvPrenom);
             row.addView(tvNom);
             row.addView(tvMail);
+            row.addView(tvDistance);
             table.addView(row);
         }
     }
@@ -189,6 +202,7 @@ public class AbonneActivity extends Activity {
         if (isShadow) result.setBackgroundColor(Color.rgb(221, 238, 255));
         return result;
     }
+
 
     public static ArrayList<Abonne> getUserSubList() {
         return userSubList;
